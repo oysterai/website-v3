@@ -1,0 +1,57 @@
+/* Oyster mobile: retain the desktop visual language with readable cards and touch motion. */
+@media (max-width:900px) {
+  :root { --oy-mobile-ease:cubic-bezier(.16,1,.3,1); }
+  .hero-inner { opacity:1!important; min-width:0; }
+  .hero-inner>* { min-width:0; }
+  .tab-stage { min-height:0; }
+  /* Restore the desktop stack: the original <=880px rule made these static. */
+  .feat-stack { overflow:visible; padding-bottom:24vh; }
+  .feat-stack > .feat { position:sticky; top:var(--oy-stack-top,calc(88px + var(--i,0)*6px)); z-index:calc(1 + var(--i,0)); margin-bottom:clamp(72px,14vh,120px); }
+  /* A reveal transform on the stack itself changes the sticky coordinate space. */
+  .feat-stack.oy-mobile-reveal,.feat-stack > .feat.oy-mobile-reveal { transform:none!important; opacity:1!important; }
+
+  .tab-panel { padding:24px 18px; }
+  .tab-visual,.feat-shot,.fvis { min-width:0; max-width:100%; }
+  .tabs-row { flex-wrap:nowrap; justify-content:flex-start; max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; scroll-snap-type:x proximity; scrollbar-width:thin; padding:8px; }
+  .tabs-row .tab { flex:0 0 auto; scroll-snap-align:center; min-height:44px; }
+  .tab-panel.on { animation-duration:240ms; animation-timing-function:var(--oy-mobile-ease); }
+  .vc-track { overscroll-behavior-x:contain; scroll-padding-inline:20px; }
+  .vc-card { min-width:0; }
+  /* The original reveal is hidden without JavaScript and can hide again on scroll. */
+  .rv { opacity:1; transform:none; }
+  .rv.oy-mobile-reveal { opacity:0; transform:translateY(18px); transition:opacity 480ms var(--oy-mobile-ease),transform 480ms var(--oy-mobile-ease); transition-delay:var(--oy-mobile-delay,0ms); }
+  .rv.oy-mobile-reveal.oy-mobile-seen { opacity:1; transform:none; }
+  .oy-mobile-depth { translate:0 var(--oy-mobile-y,0px); }
+  .btn,.tab,.bwc,.blc,.bcard,.m-card,.vc-card { -webkit-tap-highlight-color:transparent; transition:scale 180ms var(--oy-mobile-ease); }
+  .btn:active,.tab:active,.bwc:active,.blc:active,.bcard:active,.m-card:active,.vc-card:active { scale:.98; transition-duration:80ms; }
+  .btn:focus-visible,.tab:focus-visible,.bwc:focus-visible,.blc:focus-visible,.bcard:focus-visible,.m-card:focus-visible,.vc-card:focus-visible { outline:2px solid var(--orange-deep,#A8431A); outline-offset:4px; }
+  .oy-mobile-paused,.oy-mobile-paused *,.oy-mobile-paused::before,.oy-mobile-paused::after,
+  .oy-mobile-hidden * { animation-play-state:paused!important; }
+}
+@media (max-width:600px) {
+  .hero { padding-top:108px; }
+  .hero-inner { padding-inline:20px; gap:26px; }
+  .hero .facepanel { height:clamp(300px,90vw,400px); }
+  .clay-learn { grid-template-columns:minmax(0,1fr); grid-auto-rows:auto; padding-inline:20px; }
+  .clay-learn>a { min-height:260px; }
+  .clay-learn .cl-brand { grid-row:auto; grid-column:auto; min-height:330px; }
+  .clay-learn .cl-get { min-height:330px; }
+  .clay-learn .cl-img { min-height:280px; }
+  .clay-learn .cl-get,.clay-learn .cl-brand { padding:26px; }
+  .feat-in { padding:34px 20px; gap:26px; }
+  .brandwall { gap:12px; padding-inline:20px; }
+  .bwc { padding:8px; border-radius:16px; min-width:0; }
+  .bwc-name { overflow-wrap:anywhere; }
+  .mfoot-grid { gap:28px 18px; }
+  .stage-ic { width:52px; height:52px; left:4px; }
+  .blart { padding-inline:20px; }
+  .blart .blcta { padding:30px 22px; }
+}
+@media (max-width:900px) and (prefers-reduced-motion:reduce) {
+  .rv,.rv.oy-mobile-reveal,.rv.oy-mobile-reveal.oy-mobile-seen { opacity:1!important; transform:none!important; transition:none!important; }
+  .oy-mobile-depth { translate:none!important; }
+  .feat-stack > .feat { position:static; top:auto; margin-bottom:20px; }
+  .feat-stack { padding-bottom:90px; }
+  [data-par] { transform:none!important; }
+  .btn:active,.tab:active,.bwc:active,.blc:active,.bcard:active,.m-card:active,.vc-card:active { scale:1; }
+}

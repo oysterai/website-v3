@@ -1,0 +1,45 @@
+SOLUTIONS-DATA-OVERVIEW — Version 17 September 2026
+
+Appendix A: Personal Data Categories and Processing Purposes
+
+A.1 Personal Data Categories
+
+Includes but is not limited to skin analysis data, anonymized behavioral data, and other information voluntarily provided by users.
+
+A.2 Sensitive Data
+
+The Processor acknowledges that certain categories of Personal Data processed in connection with the Services may be classified as sensitive or special category data under Applicable Data Protection Laws.
+
+A.3 Processing Purposes
+
+Personalized beauty recommendations, customer interactions, analytics, and service improvements.
+
+A.4 Retention Period
+
+Personal Data other than the temporary data in Appendix A.5 is retained only as necessary for the agreed processing purposes during the Agreement, and returned or deleted under Section 10.2 within ninety (90) days after termination, subject to legally required retention. Appendix A.5 governs the shorter retention periods for selfie images and IP-address data. Fully anonymized data that cannot reasonably be re-identified is addressed separately in Appendix A.6; pseudonymized or otherwise identifiable data remains subject to this DPA.
+
+A.5 Information Temporarily Collected and Processed
+
+The following data is processed only for the purpose of providing the Solution and is not stored:
+
+● First 3 octets of the end users IP-address for country and city-level location purposes (deleted after user session closed).
+
+● Selfie image of end users for skin analysis purposes (deleted right after analysis completed).
+
+A.6 Information Collected and Stored in an Anonymized Format
+
+The following information is stored only in an anonymized format:
+
+● A unique identification number assigned to the e-commerce site visitor.
+
+● Approximate city-level location, as determined by GeoIP.
+
+● Product recommendations provided to the user.
+
+● Skincare and cosmetics preferences.
+
+● Environmental data (weather/forecast based on location).
+
+● Transformed selfie data, converted into numerical scores for skin type classification.
+
+● Aggregated, anonymized data, which may be used for analytics, benchmarking, and service improvements, ensuring that no individual user is identifiable. Furthermore, to advance broader societal benefits, we may utilize derived, fully anonymized, and aggregated datasets for the purpose of healthcare research. This altruistic initiative aims to identify trends, inform the development of novel solutions for dermatological and general health challenges, and ultimately train our models to deliver increasingly accurate and beneficial technology to our clients and the wider community.

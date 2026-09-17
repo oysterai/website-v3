@@ -1,0 +1,273 @@
+TERMS — Version 17 September 2026
+
+1. Introduction
+
+This Terms of Service Agreement ("Agreement") is entered into between Oyster Skin Research Inc, trading as Oyster AI ("Oyster AI," "Solution Provider," "we," "our," or "us"), and the entity that accesses or uses its Services ("Client" or "You"). A different Oyster contracting entity applies only if expressly identified in a Pricing Agreement signed by both parties. This Agreement governs the Client’s use of Oyster AI’s solutions, software, and related services ("Services"). By accepting a Pricing Agreement incorporating these Terms or accessing or using the Services, the Client agrees to these Terms. The Effective Date is the effective date stated in that Pricing Agreement or, if none, the date the Client first accepts these Terms or accesses the Services, whichever occurs first.
+
+2. Definitions
+
+● Agreement: This document, including all associated Pricing Agreements, Statements of Work (SOWs), Appendices, or any amendments thereto.
+
+● Applicable Data Protection Law: Means all laws governing the processing of Personal Data, biometrics, or consumer privacy under these Terms, including without limitation:
+
+○ European Union / UK / Swiss: The General Data Protection Regulation (GDPR), the UK Data Protection Act 2018, the UK GDPR, and the Swiss Federal Act on Data Protection (FADP).
+
+○ African Jurisdictions: South Africa’s Protection of Personal Information Act (POPIA), Nigeria’s Data Protection Act (NDPA) and Nigeria Data Protection Regulation (NDPR), Kenya’s Data Protection Act, and all other applicable national data privacy legislation across African operating jurisdictions.
+
+○ United States: The California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), the Illinois Biometric Information Privacy Act (BIPA), Virginia Consumer Data Protection Act (VCDPA), Colorado Privacy Act (CPA), Connecticut Data Privacy Act (CTDPA), Utah Consumer Privacy Act (UCPA), and all applicable U.S. federal and state privacy or biometric regulations.
+
+○ Asia-Pacific & Other Global: China’s Personal Information Protection Law (PIPL), Brazil’s LGPD, and any other data protection laws in jurisdictions where You operate or where End Users reside.
+
+● Data Protection Impact Assessment (DPIA): An assessment or evaluation required under Applicable Data Protection Law (such as Article 35 of the GDPR, Section 20/POPIA compliance reviews, or NDPA requirements) to identify, analyze, and minimize data privacy risks associated with processing personal data, biometric data, or automated AI scoring.
+
+● Client: The entity entering into this Agreement with Oyster AI, including its subsidiaries, affiliates, and authorized users.
+
+● End User: A user of the Services through the Client’s digital properties.
+
+● Digital Property: Any website, mobile application, digital screen, in-store solution, platform, or any other digital channel owned or operated by the Client where the Services are deployed.
+
+● Solution: The AI-powered digital beauty services, analytics, algorithms, and recommendations provided by Oyster AI, including all associated APIs, dashboards, and customization capabilities.
+
+● Solution Start Date: The date the Solution is deployed for production use.
+
+● Intellectual Property: Without limitation all patents, trademarks, service marks, copyrights, trade secrets, digital property, proprietary algorithms, AI models, data sets, know-how, technical data, and other proprietary rights owned or controlled by Oyster AI.
+
+● Solution Provider: Oyster Skin Research Inc, trading as Oyster AI, unless a different Oyster contracting entity is expressly identified in a Pricing Agreement signed by both parties.
+
+● Pricing Agreement: The written agreement specifying fees, service scope, and Licensed scope renewal terms.
+
+3. License, Term, and Use of Services
+
+3.1. License Oyster AI grants the Client a non-exclusive, non-transferable, non-sublicensable license to use the Services solely for its business purposes, in accordance with this Agreement and the applicable Pricing Agreement. Oyster AI shall provide the Services strictly as described in the applicable Pricing Agreement. No additional services shall be provided unless agreed in writing by both parties. Client shall not distribute, sublicense, modify, reverse-engineer, decompile, disassemble, or create derivative works from the Services without Oyster AI’s prior written consent. All rights, title, and interest in and to the Services, including any improvements or modifications, are governed by Section 7 (Intellectual Property).
+
+3.2. Term of Agreement & Termination This Agreement shall remain in effect throughout the duration of any active Pricing Agreement, and shall automatically apply to any successive renewals of such Pricing Agreements, unless otherwise agreed in writing. If any Pricing Agreement is terminated, this Agreement shall continue to apply to any remaining active Pricing Agreements unless terminated separately in accordance with the terms of this Agreement. Termination of any individual Pricing Agreement shall be governed by the terms of that Pricing Agreement, including any notice period required for non-renewal or termination. The Client’s obligations under sections related to confidentiality, intellectual property, and indemnification shall survive the termination of any individual Pricing Agreement. If this Agreement is terminated, the Data Processing Agreement (DPA) shall also be automatically terminated. However, termination of the DPA alone shall not terminate this Agreement or any active Pricing Agreement. If Oyster AI determines that the termination of the DPA prevents it from legally providing the Solution under Applicable Data Protection Law, Oyster AI may temporarily suspend the affected portion of the Solution for up to thirty (30) days while engaging in good faith discussions with the Client to restore compliance. Such suspension shall not constitute a breach of this Agreement and shall not relieve the Client of its payment obligations.
+
+3.3. Termination for Cause Either party may terminate this Agreement for cause upon thirty (30) days’ written notice if the other party materially breaches any of its representations, warranties, or obligations under this Agreement. The notice must specify the breach in reasonable detail. If the breaching party fully cures the breach within the notice period to the reasonable satisfaction of the non-breaching party, the termination notice shall be rescinded, and the Agreement shall continue. If the breach is not cured, the Agreement shall terminate automatically at the end of the notice period. This termination right is in addition to any other remedies available under applicable law.
+
+3.4. Restrictions on Use The Client shall not modify, reverse-engineer, decompile, disassemble, or otherwise exploit the Services beyond the agreed terms. The Client shall use the Services only as permitted and shall not resell or allow unauthorized access to third parties.
+
+4. Rights and Responsibilities of the Solution Provider
+
+4.1. Service Commitment The Solution Provider commits to offering the Services as described in this Agreement and the applicable Pricing Agreement.
+
+4.2. Data Privacy The Solution Provider agrees not to disclose, share, or otherwise publish any data collected through the Services from the Client’s Digital Property where the Services are installed in a way that identifies the Client, their end users, or their data. Notwithstanding the aforementioned, the Solution Provider retains the right to include aggregated and anonymized data collected through the Services into reports and benchmarks, provided that such data does not enable the identification of the Client or any of its end users.
+
+4.3. Operational Maintenance As part of continuous system maintenance, the Solution Provider agrees to use commercially reasonable measures to ensure, to the best of its ability, the operational functionality of the Services once installed and implemented onto the Client’s Digital Property. Applicable exclusions, uptime measurement and support targets are governed by Section 13. A third-party infrastructure failure is not automatically excluded merely because the infrastructure is operated by a provider selected by Oyster AI.
+
+4.4. Solution Implementation and Information Sharing The Solution Provider commits to providing the Solution enabling the Client to install and activate the Solution on their chosen digital property as defined in the Pricing Agreement. The Solution Provider further agrees to provide the Client with information about the usage of the Solution on the Client's digital property from time to time. In addition, the Solution Provider further provides the Client with the relevant information about the functionality employed in and technology used by the Solution to the extent possible, provided that exposing the information is necessary for the implementation of the Solution on the Client's digital property and does not expose trade secrets or other intellectual property owned by the Solution Provider.
+
+4.5. Compliance with Visual Guidelines The Solution Provider agrees to provide the Client with the Solution corresponding with the Client's visual guidelines jointly agreed upon by the Solution Provider and Client and approved in writing by the Client. The Solution Provider agrees to inform the Client if the changes requested by the Client require additional work outside the agreed scope.
+
+4.6. Analytics Delivery The Solution Provider is responsible for delivering analytics on the use of the Solution directly through to the Client's Google Analytics Dashboard (when applicable) or through specialized callbacks provided as part of the Solution, which the Client can integrate into any third-party analytics service.
+
+4.7. Marketing Rights The Solution Provider shall have the right to use the Client’s name and logo as a public reference in its marketing materials, including but not limited to the Solution Provider’s website, presentations, brochures, and other written or digital materials. For the avoidance of doubt, upon the Client’s written request, such public references shall be promptly removed.
+
+4.8. Watermark Each Solution shall include a discrete “Powered by Oyster AI” watermark.
+
+5. Rights and Responsibilities of the Client
+
+5.1. Installation and Compatibility The Client is solely responsible for installing, configuring, and integrating the Solution(s) on their Digital Property in accordance with Oyster AI’s guidelines. The Client must ensure interoperability between the Solution(s) and any third-party systems, APIs, plugins, software, or features present on their Digital Property, whether installed before or after the installation of the Solution(s). Oyster AI is not liable for performance issues caused by third-party integrations or modifications made by the Client.
+
+5.2. Legal Compliance The Client represents and warrants that its use of the Solution(s) complies with Applicable Data Protection Law (as defined in Section 2). Client shall be responsible for obtaining necessary user consents, ensuring its privacy policies accurately reflect data collection and processing practices, and implementing appropriate security measures to protect access credentials and user data.
+
+5.3. Consent & Accuracy The Client is responsible for obtaining and managing required end-user consents in compliance with Applicable Data Protection Law (as defined in Section 2). The Client must also ensure that its privacy policies accurately reflect data collection and processing practices and that data collection aligns with all applicable legal requirements. Additionally, the Client must provide accurate and up-to-date product feeds, if applicable, to ensure proper functionality of the Solution(s).
+
+5.4. Acceptance Period and Change Requests The Client shall accept delivery of the Solution within 10 days of the Solution Provider providing an initial demo link to the Solution (“Acceptance Period”). During this 10-day Acceptance Period, the Client has the ability to request changes to the design of the Solution. All requested changes should be submitted in a single review round.
+
+5.5. Product Feed Requirement The Client agrees to provide the Solution Provider with an up-to-date Product Feed containing information about the available relevant products in the Client's inventory and available for purchase from the Client’s digital property where the Solution is installed.
+
+5.6. Access Security The Client must implement and maintain appropriate security measures to protect credentials, API keys, and login information from unauthorized access, misuse, or disclosure. The Client is solely responsible for managing access permissions and ensuring that only authorized personnel have access to such credentials. These security measures must comply with industry-standard practices and any applicable data protection law and regulations.
+
+5.7. Incident Reporting The Client must notify Oyster AI without undue delay, and no later than 48 hours after becoming aware of any Service issues, errors, security breaches, or unauthorized access affecting the Solution(s). Relevant details must be provided to assist in timely diagnosis and resolution.
+
+6. Fees, Payment Terms and Taxes
+
+6.1. Fees, Payment Terms and Taxes The Client shall pay all fees as specified in the applicable Pricing Agreement. Oyster AI reserves the right to modify pricing with 60 days' written notice before renewal of the respective Pricing Agreement. Unless otherwise agreed in writing, payments are due within fourteen (14) days from the invoice date. Except for refunds expressly provided by this Agreement, a signed Pricing Agreement or mandatory law, all fees are non-refundable and exclusive of any applicable taxes, levies, duties, or government-imposed charges ("Taxes"), for which the Client is solely responsible.
+
+6.2. Late Payments and Non-Payment If payment is not received by the due date, Oyster AI will notify the Client of non-payment. Payments must be made within thirty (30) days of such notice. Failure to pay within this period may result in:
+
+● A late payment interest charge of 1.5% per month on the outstanding balance.
+
+● Suspension of access to the Services until payment is received.
+
+● Termination of the Services in accordance with this Agreement. In addition to the late payment interest charge, the Client shall be responsible for any collection costs incurred by Oyster AI in recovering overdue amounts, including reasonable attorney’s fees and expenses. If the Client disputes any invoiced amount in good faith, they must notify Oyster AI in writing within thirty (30) days of the invoice due date, providing details of the dispute. Undisputed charges must still be paid by the due date. Any amounts not disputed within this period shall be considered final and non-contestable.
+
+7. Intellectual Property
+
+7.1. Ownership and Retention of Rights The Agreement and the use of the Solution by the Client does not create or transfer any intellectual property regarding the Solution, or the information used in or generated by the Solution from the Solution Provider to the Client. All such rights remain exclusively with the Solution Provider. Any unauthorized use, transfer, or infringement of the Solution Provider’s intellectual property shall constitute a material breach of this Agreement. Each party retains ownership of their respective intellectual property. Any rights not expressly granted to the Client under this Agreement are reserved by the Solution Provider. The Client shall not acquire any implied rights, whether by estoppel, implication, or otherwise.
+
+7.2. Improvements and New Inventions Any enhancements, modifications, or discoveries (each a "New Invention") related to or derived from the Solution Provider’s intellectual property—including patents, proprietary rights, licensed products, or processes—shall remain the sole property of the Solution Provider, subject to any rights granted to the Client under the license. The Client must ensure that its officers and employees, or otherwise employed in any manner, having access to, contact with the Intellectual Property:
+
+● Keep all such information confidential and disclose it only when necessary for business activities under this Agreement.
+
+● Assist the Solution Provider in securing intellectual property rights for any New Inventions by signing necessary legal documents.
+
+● Acknowledge that any customizations, modifications, or integrations requested by the Client and implemented by the Solution Provider shall not alter the ownership of the Solution Provider’s intellectual property, unless expressly agreed in writing.
+
+7.3. Protection of Intellectual Property The Client shall not, at any time, directly or indirectly:
+
+● Contest or assist others in contesting the Solution Provider’s ownership of its intellectual property.
+
+● Engage in any actions that could weaken or impair the Solution Provider’s rights.
+
+● Use the Solution in a manner that would create a derivative work unless expressly permitted in writing by the Solution Provider.
+
+● Violate any of the use restrictions set forth in Section 3.4, including but not limited to reverse-engineering, decompiling, or disassembling the Solution. At the Solution Provider’s request, the Client shall fully cooperate, at the Solution Provider’s expense, in confirming, perfecting, preserving, and enforcing its intellectual property rights.
+
+7.4. Reporting Unauthorized Use The Client must promptly notify the Solution Provider of any known unauthorized use, infringement, or unfair competition involving the Solution Provider’s intellectual property. The Solution Provider reserves the right to audit the Client’s use of the Solution, upon reasonable notice, to ensure compliance with this Section. If unauthorized use is discovered, the Client shall take immediate corrective action and may be subject to additional fees, penalties, or termination of this Agreement.
+
+8. Data Privacy, Security, and Compliance
+
+8.1. Compliance with Global Privacy Laws Oyster AI will process any Personal Data in accordance with Applicable Data Protection Law (including GDPR, POPIA, NDPA/NDPR, CCPA/CPRA, and BIPA) and the Data Processing Agreement (DPA). The Client represents and warrants that its collection, consent management, and use of the Solution(s) comply with all applicable global privacy regulations.
+
+8.2. Processing of Client End-User Data To the extent that Oyster AI receives or has access to the Client’s end users’ Personal Data or biometric input (“Customer PII”) for the purpose of providing the Solution, Oyster AI shall:
+
+● Process Customer PII only as necessary to perform the Services, under the direct instructions of the Client (acting as Responsible Party/Data Controller), and in strict compliance with Applicable Data Protection Law.
+
+● Not retain, sell, share, use, or disclose Customer PII for any purpose other than providing the specified Services.
+
+● Ensure that any subcontractors, sub-processors, or third parties with access to Customer PII are subject to equivalent privacy, security, and confidentiality obligations under a written agreement.
+
+● Delete or anonymize Customer PII upon termination of the Agreement or as directed by the Client.
+
+● Assist and provide the Client with access to Customer PII stored by Oyster AI to fulfill End User rights requests (e.g., access, deletion, objection, or correction requests under GDPR, POPIA, or NDPA).
+
+8.3. Data Protection Impact Assessments (DPIA) & AI Risk Cooperation
+
+● To the extent required by Applicable Data Protection Law (including where processing involves high-risk automated processing, AI analytics, or biometric data analysis), Oyster AI agrees to provide reasonable cooperation, documentation, and technical information to assist the Client in conducting Data Protection Impact Assessments (DPIAs), Risk Assessments, or Prior Consultations with relevant supervisory authorities (e.g., Information Regulator in South Africa, NDPC in Nigeria, or EU Data Protection Authorities).
+
+● Oyster AI shall maintain clear documentation regarding system functionality, data flow, security safeguards, and algorithmic processes necessary to support the Client’s DPIA obligations.
+
+8.4. Cross-Border Data Transfers Where Customer PII is transferred across national borders (including transfers outside the EEA, UK, South Africa, Nigeria, or other applicable jurisdictions), Oyster AI and Client agree to implement recognized legal transfer mechanisms (such as Standard Contractual Clauses (SCCs), International Data Transfer Agreements (IDTAs), or statutory authorization frameworks under POPIA/NDPA) set forth in the DPA.
+
+8.5. Data Ownership and Security All Customer PII remains the exclusive property of the Client. Oyster AI is granted limited rights to process Customer PII solely to perform the Services. Oyster AI implements industry-standard technical and organizational security controls, including AES-256 encryption at rest and in transit, access controls, regular vulnerability assessments, and compliance with cross-border data transfer laws.
+
+8.6. Data Processing Agreement (DPA) Further details on sub-processors, data management, cross-border transfers, security incident notifications, and audit rights are detailed in the Data Processing Agreement (DPA), which is incorporated herein by reference.
+
+8.7. Security Controls & Certifications Oyster AI employs the following baseline security measures:
+
+● Encryption: All data transmissions and storage use industry-standard encryption protocols (e.g., AES-256, TLS 1.2+).
+
+● Access Controls: Role-based access controls (RBAC) and multi-factor authentication (MFA) enforce strict access boundaries.
+
+● Audits & Penetration Testing: Third-party security audits and penetration testing are conducted periodically.
+
+● Minimization & Retention: Oyster AI adheres to data minimization principles; no raw biometric media or end-user personal identifiers are retained beyond the active operational session required to render the Solution.
+
+9. Limitation of Liability
+
+9.1. Exclusion of Indirect Damages Neither party shall be liable for any indirect, incidental, special, punitive, or consequential damages, including but not limited to lost profits, lost data, business interruption, or loss of goodwill, arising out of or related to this Agreement or the Services, even if the party has been advised of the possibility of such damages.
+
+9.2. Cap on Liability Oyster AI’s total aggregate liability under this Agreement, regardless of the cause of action and of actual damages, shall not exceed the total fees paid by the Client in the six (6) months preceding the claim. If a party seeks compensation due to a dispute or breach (excluding indemnification for third-party claims), it must provide documented evidence of both the breach and the financial harm suffered. However, this limitation shall not apply in cases of willful misconduct, fraud, or gross negligence, where liability shall be uncapped.
+
+9.3. Client Responsibility for Third-Party Claims The Client assumes full responsibility for any third-party claims arising from misuse of the Services, including non-compliance with Applicable Data Protection Law, unauthorized modifications, interoperability issues caused by third-party integrations, improper use of the Solution(s), and claims arising from data privacy violations of Applicable Data Protection Law.
+
+10. Indemnification
+
+10.1. Indemnification by Oyster AI Oyster AI shall defend, indemnify, and hold harmless the Client, its affiliates, officers, and employees ("Client Indemnified Parties") from claims, damages, losses, fines, penalties, and legal expenses arising from:
+
+● Third-Party IP Claims: Allegations that the Services infringe third-party intellectual property rights, except if caused by Client modifications.
+
+● Bodily Injury or Property Damage: Injury or damage related to the use of the Services, unless due to Client misuse.
+
+● Regulatory Violations: Any breach of Applicable Data Protection Law by Oyster AI, except where caused by the Client’s actions or non-compliance.
+
+10.2. Indemnification by the Client The Client shall defend, indemnify, and hold harmless Oyster AI, its affiliates, officers, and employees ("Oyster AI Indemnified Parties") from claims, damages, losses, fines, penalties, and legal expenses arising from:
+
+● Misuse of Services: Any claim due to the Client’s violation of this Agreement, laws, or third-party rights.
+
+● End-User Claims: Any claims from the Client’s customers or users, including product liability claims.
+
+● Breach of Agreement: Any failure to comply with Client obligations under this Agreement.
+
+● Commercial Sale and Use: Any claims arising from the sale, use, or performance of the Solution by the Client or its end-users.
+
+10.3. Indemnification Process The Indemnified Party must:
+
+● Provide prompt written notice of a claim, specifying the factual basis for the claim and the amount of damages, if known.
+
+● For third-party claims, provide the Claim Notice as soon as practicable, and in any event, within 15 calendar days after the service of the citation or summons.
+
+● Allow the Indemnifying Party to control the defense and settlement (with cooperation).
+
+● Not settle without approval, unless it fully releases the Indemnifying Party. Failure to provide timely notice does not waive indemnification, unless it causes material harm to the Indemnifying Party’s defense.
+
+10.4. Indemnification Limits Neither party must indemnify the other for liabilities caused by the other party’s:
+
+● Breach of contract (e.g., failure to meet obligations).
+
+● Negligence, recklessness, or intentional misconduct.
+
+11. Representations and Warranties of the Solution Provider
+
+11.1. Ownership and Authority Solution Provider solely owns or otherwise controls, to the exclusion of all other persons and entities, all right, title, and interest in and to the Solution and Solution Provider’s Intellectual Property and has all necessary power, licenses, clearances, and other authorizations to grant to Client all the License Rights and other privileges granted pursuant to this Agreement and to permit the Promotion of the Solution as contemplated herein.
+
+11.2. No Infringement To the best of Solution Provider’s knowledge, (i) neither the granting of the License Rights nor the exercise thereof by Client in accordance with the terms of this Agreement will infringe or otherwise violate the proprietary rights of any person or entity under any patent, trademark, copyright, trade secret or otherwise; (ii) neither the Solution nor any of Solution Provider’s Intellectual Property infringes or is alleged to infringe any trademark, copyright, patent or other proprietary right of any person, (iii) there is no patent or patent application, design registration or design application, or trademark or trademark application pending which interferes or potentially interferes with or infringes any of Solution Provider’s Intellectual Property; and (iv) no person or entity is infringing or making any unauthorized use of any of Solution Provider’s Intellectual Property.
+
+11.3. No Litigation History Solution Provider has not previously been and is not, as of the Effective Date, a party to any litigation involving claims of injury to person or damage to property arising from the use of the Solution, and Solution Provider is not aware of any such litigation or any other actions, proceedings, claims or investigations, whether past, pending or threatened, involving injury to person or damage to property arising from the use of the Solution.
+
+11.4. Service Performance Oyster AI warrants that the Solution(s) will substantially conform to the specifications outlined in this Agreement and applicable documentation under normal use. It will use commercially reasonable efforts to maintain and support the Solution(s) as described in the Support and Service Levels section.
+
+11.5. Compliance with Laws Oyster AI represents that it shall provide the Services in compliance with all Applicable Data Protection Law, and other relevant regulations.
+
+11.6. Security and Data Protection Oyster AI warrants that it has implemented industry-standard security measures, including encryption, access controls, and audits, to protect data processed through the Services. In the event of a security breach affecting Client data, Oyster AI will notify the Client promptly.
+
+11.7. No Other Warranties Except as explicitly stated in this Agreement, Oyster AI disclaims all other warranties, including any implied warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+12. Dispute Resolution
+
+12.1. Arbitration Any dispute arising out of or in connection with this Agreement, including its existence, validity or termination, shall be finally resolved under the Rules of Arbitration of the International Chamber of Commerce (ICC) by one arbitrator appointed under those Rules. The legal seat shall be the city and country of the Client’s principal place of business identified in the applicable Pricing Agreement or, if no address is stated, its registered office when the Agreement takes effect. The parties may agree a different seat or institution in a signed Pricing Agreement. Proceedings shall be in English unless the parties agree otherwise. Hearings may take place remotely without changing the legal seat. The award shall be final and binding and may be enforced by a court of competent jurisdiction. This clause is subject to mandatory applicable law and the interim-relief rights in Section 12.3.
+
+12.2. Arbitration Procedure The arbitration shall be conducted before a single arbitrator, unless otherwise agreed in writing. Each party shall bear its own legal costs, including attorney’s fees, unless the arbitrator determines otherwise. The parties agree that the arbitration proceedings and any related documents shall be treated as confidential, except as required by law or for the enforcement of an arbitral award.
+
+12.3. Equitable Relief Notwithstanding the above, either party may seek temporary restraining orders, preliminary or injunctive relief from a court of competent jurisdiction to prevent the unauthorized use or disclosure of its Intellectual Property or Confidential Information, or to protect its proprietary rights. Such relief shall not be deemed a waiver of arbitration for all other disputes under this Agreement.
+
+13. Support and Service Levels
+
+13.1. Support Availability Oyster AI provides support Monday to Friday, from 8:00 AM to 5:00 PM local time across all time zones. Each Client account’s applicable support time zone is the zone specified in its Pricing Agreement or support profile, defaulting to the time zone of its principal place of business. The Client may designate local support contacts for operations in other time zones. For each incident, support hours are counted in the reporting contact’s registered local time zone and do not include weekends. Time-zone changes do not reset an existing incident’s clock.
+
+13.2. Uptime Commitment & Service Credits Oyster AI commits to 99.7% monthly uptime for the production Solution. Monthly uptime (%) = 100 × (eligible service minutes − qualifying unavailable minutes) ÷ eligible service minutes. Eligible service minutes are all minutes in the calendar month after production activation, excluding periods attributable to scheduled maintenance notified at least 48 hours in advance, emergency security maintenance, Client systems or actions, Client-selected third-party integrations, internet failures outside Oyster AI’s control, or force majeure. An outage of an infrastructure provider selected by Oyster AI is not automatically excluded. Unavailability means the production Solution cannot perform its core contracted function. Qualifying downtime includes the full duration of each continuous eligible outage lasting at least 15 minutes. Oyster AI’s monitoring records are the primary measurement source, subject to reasonable supporting evidence supplied by the Client.
+
+(a) Service Credit Eligibility. Where monthly uptime falls below 99.7%, the Client may request the applicable credit below, calculated against the monthly recurring fees for the affected Service, excluding taxes, setup fees and usage-based charges. For prepaid annual subscriptions, the monthly fee is one-twelfth of the annual recurring fee. Only the single applicable band applies; bands are not cumulative.
+
+Monthly uptime | Credit (% of affected monthly recurring fees)
+At least 99.7% | 0%
+At least 99.5% but below 99.7% | 5%
+At least 99.0% but below 99.5% | 7.5%
+Below 99.0% | 10%
+
+(b) Maximum Service Credits and Claims. Total credits are capped at 10% of the affected Service’s monthly recurring fees. Claims must be sent to data@oysterskin.ai within 30 days after the affected month ends, identifying the Service, incident dates and supporting details. Approved credits apply to the next invoice or, for prepaid fees, the next renewal; they are not cash refunds. No duplicate recovery is available for the same incident. Subject to mandatory law and any expressly agreed termination rights, these credits are the sole financial remedy for downtime or failure to meet the uptime commitment. This limitation does not restrict remedies for a separate breach of confidentiality or data-protection obligations.
+
+13.3. Response and Resolution Times Oyster AI categorizes incidents by severity. The following response and resolution times are commercially reasonable service targets, not guaranteed deadlines. Times run from receipt of a sufficiently detailed support request and are counted in support hours under Section 13.1. A response means a substantive acknowledgement and initial assessment. A resolution may be a fix or a reasonable workaround restoring the affected function. Resolution clocks pause while information, access or action reasonably required from the Client is outstanding. Missing a target does not itself create a service-credit entitlement; Section 13.2 continues to govern uptime credits.
+
+● Critical Issues: Response target: 12 hours, resolution target: 24 hours. These issues have a critical impact on the Client’s site, preventing end users from accessing the e-commerce platform or Solution due to a failure in the Solution Provider’s system.
+
+● Major Issues: Response target: 24 hours, resolution target: 48 hours. These issues affect core Solution functionality, impacting the majority of end users. Examples include the Solution failing to open for clients or preventing users from completing analysis or receiving Product Recommendations.
+
+● Minor Issues: Response target: 40 hours, resolution target: 80 hours. These issues affect part of the Solution but do not prevent users from completing analysis or receiving Product Recommendations.
+
+13.4. Change Requests and Exceptions. Change requests submitted after the acceptance period are outside these response and resolution targets unless separately agreed. Issues caused solely by Client-controlled devices, software or services are excluded from those targets. Uptime exclusions and service-credit eligibility are governed exclusively by Section 13.2; Oyster-selected infrastructure is not automatically excluded.
+
+13.5. SLA Limitations Response and resolution targets do not cover issues caused solely by Client-controlled devices, software or services. Oyster AI will use commercially reasonable efforts to restore affected functionality and keep the Client informed. Permanent resolution within a target time is not guaranteed. This section does not excuse Oyster AI’s separate security, confidentiality or data-protection obligations.
+
+13.6. Service Continuity and Security Oyster AI ensures service continuity through redundancy measures and maintains a disaster recovery plan. Regular security patches, system monitoring, and risk assessments are conducted to ensure compliance with industry standards.
+
+13.7. Maintenance and Critical System Failures Clients will be notified in advance of any planned maintenance or service updates. In the event of a critical system failure, Oyster AI is committed to restoring service availability within a reasonable timeframe.
+
+14. Miscellaneous
+
+14.1 Governing Law This Agreement is governed by the substantive laws specified in the signed Pricing Agreement. If none are specified, the laws of the country of the Client’s principal place of business identified under Section 12.1 apply; where a country has distinct territorial legal systems, the relevant state or province’s laws apply. Conflict-of-laws rules are excluded to the extent permitted by law. Courts at the arbitration seat have supervisory jurisdiction, without limiting Section 12.3 or enforcement of an award elsewhere. Mandatory applicable law remains unaffected.
+
+14.2 Force Majeure Neither party shall be responsible for any delay or failure to perform any part of this Agreement due to circumstances beyond its reasonable control, including but not limited to fire, flood, explosion, war, strike, labor unrest, riot, embargo, governmental action, civil or military authority, accident, supply chain disruptions, acts or omissions of carriers, acts of God, or other unforeseen contingencies ("Force Majeure Event"). The affected party shall notify the other party as soon as practicable with full details of the event and shall use reasonable efforts to minimize its impact and resume full performance as soon as feasible.
+
+14.3. Independent Contractors Nothing in this Agreement shall be construed to create a partnership, joint venture, or employer-employee relationship between the parties. Neither party shall have the authority to bind or obligate the other in any manner, and each party remains an independent contractor.
+
+14.4. Amendments and Assignment Changes to a signed DPA, Pricing Agreement, Statement of Work or other individually negotiated provision require written agreement signed by authorized representatives of both parties, including valid electronic signatures. Operational updates expressly permitted by a signed document, such as subprocessor notices under the DPA, may follow its stated procedure. Updates to these standard Terms follow Section 14.8 and do not override signed documents. The Client may not assign this Agreement without Oyster AI’s prior written consent.
+
+14.5. Authority and Compliance Each party warrants that its representatives signing this Agreement have the legal authority to bind their respective entities. The parties further warrant that entering into and performing this Agreement does not conflict with or breach any other agreement to which they are bound.
+
+14.6. Entire Agreement This Agreement, the applicable Pricing Agreement, any signed Statement of Work and the applicable DPA form the entire agreement for their subject matter and supersede prior discussions or representations on that subject. Mandatory transfer clauses prevail for transfers they govern, followed by the signed DPA for data-protection matters, then an expressly negotiated Pricing Agreement or Statement of Work, and then these standard Terms. A website posting does not amend a signed DPA or other negotiated provision.
+
+14.7. Notices Contractual notices must be in writing. Notices to Oyster AI must be addressed to Oyster Skin Research Inc, 4110 Brooks Bend, Austin TX, USA, or emailed to data@oysterskin.ai. Notices to the Client must use the address or notice email in its Pricing Agreement or account records. Either party may update its notice details by written notice. Delivery may be by tracked courier, certified mail or email. A notice is received on recorded delivery for courier or certified mail, or on confirmation of receipt for email. Automated out-of-office replies do not constitute confirmation. If email receipt is not confirmed, the sender may use tracked physical delivery.
+
+14.8. Modification of the Agreement Oyster AI may update these standard Terms prospectively. Material updates will be notified to the Client’s designated contact at least 30 days before taking effect. For an active fixed-term Pricing Agreement, changes to fees, contracted scope, liability allocation, dispute-resolution provisions or other negotiated rights apply only at renewal or with both parties’ signed agreement. Other standard-Terms updates apply on the notified effective date; if a material change adversely affects the Client, it may give notice before that date to terminate the affected Service on that date without an early-termination charge, with a prorated refund of unused prepaid recurring fees. Legally required changes may take effect sooner to the extent required, with as much notice as reasonably practicable. These changes do not amend a signed DPA; any required DPA amendment follows Section 14.4. Continued use following the applicable effective date constitutes acceptance only to the extent permitted by law. No update operates retroactively.

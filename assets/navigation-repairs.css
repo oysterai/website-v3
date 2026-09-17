@@ -1,0 +1,42 @@
+/* Repairs extend the existing Oyster navigation; visual tokens and motion stay intact. */
+.nav.solid .nav-burger span{background:var(--ink)}
+.nav.solid .aud-switch{background:rgba(90,55,25,.08);border-color:rgba(80,50,25,.12);color:var(--ink-soft)}
+.nav.solid .aud-switch:hover{color:var(--ink)}
+.nav-item:focus-within>button{background:rgba(120,70,40,.07);color:var(--ink)}
+.nav-item:focus-within>button .cv{transform:rotate(180deg)}
+.nav-item:focus-within .mega{opacity:1;visibility:visible;transform:translateX(-50%);pointer-events:auto}
+.nav-item.nav-dismissed .mega{opacity:0;visibility:hidden;pointer-events:none}
+.nav-item.nav-dismissed>button .cv{transform:none}
+.nav :focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+.nav-mob{max-height:calc(100vh - 98px);max-height:calc(100dvh - 98px);overflow-y:auto;overscroll-behavior:contain;visibility:hidden}
+.nav-mob.open{visibility:visible}
+@media(max-width:1080px){
+ .nav-right{display:none}
+ .nav-burger{display:flex}
+ .nav-mob{display:flex;flex-direction:column;gap:4px;position:fixed;top:82px;left:14px;right:14px;background:#F4ECDD;border:1px solid var(--line-soft);border-radius:18px;box-shadow:0 22px 54px rgba(50,25,10,.28);padding:14px;z-index:999;transform:translateY(-14px);opacity:0;pointer-events:none;transition:transform .35s var(--e-out),opacity .35s var(--e-out)}
+ .nav-mob.open{transform:none;opacity:1;pointer-events:auto}
+ .nav-mob a:not(.btn){font-family:var(--disp);font-weight:600;font-size:16px;color:var(--ink);padding:12px 10px;border-radius:10px;text-decoration:none}
+ .nav-mob .btn{justify-content:center;margin-top:4px}
+ .nav-mob .aud-switch{display:flex}
+}
+/* Keep existing metric cards inside narrow phone viewports. */
+.metrics>* , .metrics .m-card, .metrics .inner{min-width:0}
+.metrics .m-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:480px){.metrics .m-left{padding:28px}.metrics .m-grid{grid-template-columns:1fr}}
+
+/* Mobile groups reuse the desktop information hierarchy and Oyster's motion curve. */
+.nav-mob-group{border-bottom:1px solid rgba(80,50,25,.12)}
+.nav-mob-group-toggle{width:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 10px;border:0;background:transparent;border-radius:10px;color:var(--ink);font-family:var(--disp);font-size:17px;font-weight:600;text-align:left;cursor:pointer;transition:background .25s}
+.nav-mob-group-toggle:hover,.nav-mob-group-toggle[aria-expanded="true"]{background:rgba(120,70,40,.06)}
+.nav-mob-chevron{width:8px;height:8px;border-right:1.8px solid currentColor;border-bottom:1.8px solid currentColor;transform:rotate(45deg);margin:0 4px 4px 0;transition:transform .3s var(--e-out)}
+.nav-mob-group.expanded .nav-mob-chevron{transform:rotate(225deg);margin-bottom:0}
+.nav-mob-group-panel{display:grid;grid-template-rows:0fr;opacity:0;visibility:hidden;transition:grid-template-rows .35s var(--e-out),opacity .25s,visibility .35s}
+.nav-mob-group.expanded .nav-mob-group-panel{grid-template-rows:1fr;opacity:1;visibility:visible}
+.nav-mob-group-inner{min-height:0;overflow:hidden;display:flex;flex-direction:column}
+.nav-mob-subheading{font-family:var(--disp);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:18px 16px 6px}
+.nav-mob .nav-mob-group-inner a:not(.btn){font-size:15px;font-weight:500;padding:11px 16px;line-height:1.4}
+.nav-mob-group-inner a:last-child{margin-bottom:14px}
+.nav-mob-group-inner a:hover{background:rgba(120,70,40,.06)}
+.nav-mob-actions{display:flex;flex-direction:column;gap:8px;padding-top:12px}
+.nav-mob-actions .aud-switch{justify-content:center;min-height:44px}
+@media(prefers-reduced-motion:reduce){.nav-mob-group-panel,.nav-mob-chevron,.nav-mob-group-toggle{transition:none}}

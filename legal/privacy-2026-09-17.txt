@@ -1,0 +1,167 @@
+PRIVACY — Version 17 September 2026
+
+
+Overview
+
+Oyster Skin Research Inc ("Oyster Skin Research Inc", "we", "our") respects your privacy and is committed to protecting your personal data.
+
+This Website Privacy Policy describes how we collect and use personal data when you visit our website, interact with our content, or submit information through our forms.
+
+Oyster Skin Research Inc provides AI-powered technology solutions to brands and retailers ("Clients"). Where our technology is used within a Client-operated experience, the Client acts as the data controller (or responsible party) and is responsible for how personal data is collected and used. Oyster Skin Research Inc acts solely as a data processor (or operator) in relation to such solutions and does not independently determine the purposes or means of processing personal data within those experiences.
+
+What This Policy Covers
+
+This Privacy Policy applies to:
+
+
+Visitors to www.oysterskin.com
+Users who submit forms (e.g., demo requests, event registrations, newsletter sign-ups)
+Interactions with our marketing content
+
+
+This Privacy Policy does not apply to personal data processed through our solutions embedded within third-party websites or applications.
+
+Information We Collect
+
+We may collect the following types of information:
+
+Information You Provide:
+
+
+Name
+Email address
+Company name
+Job title
+Any information you choose to provide through forms or communications
+
+
+Automatically Collected Information:
+
+When you visit our website, we may collect:
+
+
+IP address
+Browser type and device information
+Pages visited and interactions
+Referring URLs
+
+
+How We Use Information
+
+We use information to:
+
+
+Respond to inquiries and demo requests
+Provide information about our products and services
+Send marketing communications (where permitted)
+Improve our website and user experience
+Analyze website usage and performance
+
+
+Cookies and Tracking Technologies
+
+We use Google Analytics to understand visits to our public website and interactions with its links. Analytics measurement is enabled when you accept analytics in our consent controls. You can reject or withdraw consent through “Analytics preferences” in the footer. The Google tag script is requested when a page loads; analytics measurement remains disabled until acceptance. Advertising consent remains denied in this website configuration.
+
+Our custom analytics events do not include names, email addresses, application contents, booking answers or skin-analysis results. Page addresses supplied by this website’s tracking code exclude query strings and unapproved route identifiers. A booking-link click measures interest and does not confirm that an appointment was made. Information about Google’s data handling is available in Google’s Privacy Policy.
+
+We use cookies and similar technologies to:
+
+
+Operate and maintain our website
+Understand usage and performance
+Support marketing and advertising activities
+
+
+These may include:
+
+
+Analytics tools (such as Google Analytics)
+Marketing and advertising partners
+Tracking technologies such as pixels and tags
+
+
+You can control cookies through your browser settings. Some features of the website may not function properly if cookies are disabled.
+
+Marketing and Communications
+
+Where permitted by applicable law, we may use your information to:
+
+
+Send newsletters
+Share updates about our solutions
+Provide relevant marketing content
+
+
+You can opt out of marketing communications at any time using unsubscribe links or by contacting us.
+
+Sharing of Information
+
+We may share information with:
+
+
+Service providers supporting our website and marketing operations
+Analytics and advertising partners
+Professional advisors where necessary
+
+
+We do not sell personal data.
+
+Data Security
+
+We implement appropriate technical and organizational measures to protect personal data, including industry-standard encryption, access controls, and regular security assessments to safeguard against unauthorized access or breaches.
+
+Data Retention
+
+We retain personal data only for as long as necessary to fulfill the purposes described in this policy or as required by law.
+
+Third-Party Links
+
+Our website may contain links to third-party websites. We are not responsible for the privacy practices of those sites.
+
+Children's Privacy
+
+Our website is not intended for individuals under the age of 18, and we do not knowingly collect personal data from children.
+
+Oyster Skin Research Inc Solutions (Important Notice)
+
+Oyster Skin Research Inc provides technology to brands and retailers. When you interact with a powered experience on a third-party website, the relevant Client, acting as the data controller, is responsible for how your personal data is collected and used, including providing any required disclosures and obtaining user consent.
+
+We act solely as a data processor in such contexts and process data only on behalf of and under the instructions of our Clients.
+
+
+For an overview of how our technology processes data, please visit our Solutions Data Overview page.
+For general information about our data processing commitments, please review our Data Processing Agreement (DPA).
+
+
+Data processing obligations are governed by the specific agreement between Oyster Skin Research Inc and each Client and may vary depending on applicable contractual terms.
+
+Your Rights
+
+Depending on your location, you may have rights regarding your personal data under applicable data protection laws, including the GDPR (Europe), POPIA (South Africa), NDPA (Nigeria), and US State Privacy Laws (e.g., CCPA/CPRA). These rights may include:
+
+
+Access: Requesting copies of your personal data.
+Correction: Requesting the correction of inaccurate data.
+Deletion: Requesting the erasure of your personal data.
+Objection/Restriction: Objecting to or restricting certain processing activities.
+
+
+To exercise your rights, please contact us using the details below.
+
+Changes to This Policy
+
+We may update this Website Privacy Policy from time to time. The version date appears at the top of this page. A revised policy takes effect when published unless a later date is stated; it does not retrospectively authorize new uses of previously collected data. We will provide additional notice and obtain consent where required by applicable law.
+
+Contact
+
+If you have questions about this Privacy Policy or wish to exercise your data protection rights, please contact us:
+
+By e-mail: data@oysterskin.ai
+
+By mail:
+
+Oyster Skin Research Inc
+
+4110 Brooks Bend
+
+Austin TX, USA

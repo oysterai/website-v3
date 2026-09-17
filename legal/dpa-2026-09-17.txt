@@ -1,0 +1,183 @@
+DPA — Version 17 September 2026
+
+1. Introduction
+
+This Data Processing Agreement ("DPA") is entered into between Oyster Skin Research Inc ("Oyster AI" or "Processor") and the Client ("Controller" or "Responsible Party"), collectively referred to as "Parties." This DPA supplements and forms an integral part of the Terms of Service governing the provision of services by Oyster AI to the Controller ("Agreement"). This DPA ensures compliance with Applicable Data Protection Law.
+
+2. Definitions
+
+● Applicable Data Protection Law: All laws governing the processing of Personal Data under these Terms, including but not limited to Nigeria’s Data Protection Act (NDPA) and Nigeria Data Protection Regulation (NDPR), South Africa’s Protection of Personal Information Act (POPIA), Kenya’s Data Protection Act, the General Data Protection Regulation (GDPR) and relevant national laws in the European Economic Area (EEA), the UK Data Protection Act 2018, the California Consumer Privacy Act (CCPA), and any other applicable data protection laws in jurisdictions where the Controller operates.
+
+● Data Protection Impact Assessment (DPIA): An assessment or evaluation required under Applicable Data Protection Law (such as Section 20/POPIA compliance reviews, NDPA requirements, or Article 35 of the GDPR) to identify, analyze, and minimize data privacy risks associated with processing personal data, biometric data, or automated AI scoring.
+
+● Controller: The entity that determines the purposes and means of processing personal data (synonymous with "Responsible Party" under POPIA).
+
+● Processor: The entity that processes personal data on behalf of the Controller (synonymous with "Operator" under POPIA).
+
+● Personal Data: Any information relating to an identified or identifiable natural person as defined under applicable data protection laws.
+
+● Subprocessor: A third party engaged by Oyster AI to process personal data on behalf of the Controller.
+
+● Data Breach: A breach of security leading to accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to personal data.
+
+● Supervisory Authority: The independent public authority responsible for monitoring compliance with data protection laws (e.g., the Nigeria Data Protection Commission (NDPC), the Information Regulator in South Africa).
+
+3. Purpose and Scope
+
+3.1 Scope. The Processor shall process personal data solely for the purpose of providing the services described in the Agreement.
+
+3.2 Restrictions. The Processor shall not process personal data for any other purpose unless explicitly authorized by the Controller in writing.
+
+3.3 Data Categories. The categories of personal data processed and the nature and purpose of processing are further detailed in Appendix A.
+
+3.4 Compliance Responsibility. Each Party shall be individually responsible for ensuring compliance with applicable data protection laws and regulations.
+
+4. Obligations of the Processor
+
+4.1 Processing Instructions. The Processor shall process personal data only in accordance with the Controller’s documented instructions.
+
+4.2 Security Measures. The Processor shall implement appropriate technical and organizational measures to protect personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage.
+
+4.3 Confidentiality. The Processor shall ensure that its personnel authorized to process personal data are subject to confidentiality obligations.
+
+4.4 Data Subject Rights. The Processor shall assist the Controller in responding to data subject rights requests, including requests for access, rectification, erasure, restriction, and data portability.
+
+4.5 Regulatory Compliance & DPIA Assistance. The Processor shall provide reasonable cooperation, documentation, and technical information to assist the Controller in conducting Data Protection Impact Assessments (DPIAs) and prior consultations with relevant Supervisory Authorities (e.g., NDPC, Information Regulator), particularly where processing involves high-risk automated processing or biometric data analysis.
+
+4.6 Breach Notification. The Processor shall notify the Controller without undue delay upon becoming aware of a data breach, providing sufficient information for the Controller to comply with its legal obligations.
+
+5. Obligations of the Controller
+
+5.1 Legal Basis. The Controller warrants that it has obtained all necessary consents and legal bases for processing personal data.
+
+5.2 Processing Instructions. The Controller shall provide the Processor with accurate processing instructions and notify the Processor of any necessary changes.
+
+5.3 Record-Keeping. The Controller shall maintain a record of processing activities as required under Applicable Data Protection Law and ensure compliance with applicable laws.
+
+6. Use of Subprocessors
+
+6.1. Authorization. The Controller authorizes the Processor to engage subprocessors as necessary for service delivery.
+
+6.2. Subprocessor Obligations. The Processor shall ensure that any subprocessors are bound by obligations equivalent to those set forth in this DPA.
+
+6.3. Subprocessor Notification and Right to Object. A current list of approved subprocessors is maintained in Appendix C. The Processor will update this list at least 30 days before engaging a new subprocessor. If the Controller does not submit a written objection within this period, the new subprocessor shall be deemed approved.
+
+7. International Data Transfers
+
+7.1 Data Transfers & Compliance Mechanisms. The Processor shall not transfer personal data outside its original collection jurisdiction unless compliant with Applicable Data Protection Laws. Transfers shall rely on legally recognized mechanisms, including:
+
+● Transfers from Nigeria, South Africa, or other African jurisdictions shall comply with the NDPA/NDPR, POPIA, or relevant local laws, ensuring statutory authorization, explicit consent where required, or adequate binding corporate rules/agreements.
+
+● Transfers from the EEA, UK, and Switzerland shall be conducted using applicable Standard Contractual Clauses (SCCs) completed as described in Appendix D or the EU-U.S. Data Privacy Framework (DPF) if the recipient is DPF-certified.
+
+● Transfers from the U.S. to other jurisdictions shall comply with applicable U.S. federal and state privacy laws (CCPA/CPRA, etc.). If data is fully anonymized and cannot be re-identified, it is not subject to SCCs, DPF, NDPA/POPIA cross-border restrictions, or other transfer mechanisms.
+
+8. Security Measures
+
+8.1 Compliance with Security Measures. The Processor shall implement technical and organizational safety measures as required by applicable data protection legislation to ensure the security of the processed personal data.
+
+8.2 Protection of IT Systems. Considering the sensitive nature of personal data and the risk level assessed by the Controller, the Processor shall implement effective security measures to protect IT systems, cloud infrastructure, and data processing environments.
+
+9. Data Breach Notification
+
+9.1 Reporting Obligations. In the event of a data breach, the Processor shall:
+
+● Notify the Controller of a data breach without undue delay.
+
+● Provide the Controller with a description of the nature of the breach, categories and approximate number of affected data subjects, and recommended mitigation measures.
+
+● Cooperate with the Controller in investigating and mitigating the effects of the breach.
+
+10. Retention and Deletion of Data
+
+10.1 Retention Period. The Processor shall retain personal data only for the duration necessary to fulfill its obligations under the Agreement.
+
+10.2 Data Return and Deletion. On termination, the Processor shall, at the Controller’s choice, return or delete Personal Data processed on its behalf and delete remaining copies within ninety (90) days after termination, unless Applicable Data Protection Law requires retention. Any legally required retention shall be limited to the required data and period, protected under this DPA and used only for that legal purpose. A request to return data must be made before deletion. The shorter deletion periods in Appendix A.5 remain applicable and are not extended by this clause.
+
+11. Audit Rights
+
+11.1 Independent Audits. The Processor undergoes regular independent third-party security audits to verify compliance with industry standards.
+
+11.2 Customer-Requested Audits. If the Controller reasonably requires additional verification beyond the provided audit report, the Controller may conduct an independent audit no more than once per year with 30 days' written notice.
+
+12. Term and Termination
+
+12.1 Agreement Duration. This DPA shall remain in effect for as long as the Processor processes personal data on behalf of the Controller.
+
+12.2 Surviving Obligations. Sections related to Confidentiality, Cross-Border Data Transfers, Breach Notification, and Retention & Deletion shall survive termination of this Agreement.
+
+12.3 Governing Law & Jurisdiction. This DPA shall be governed by and construed in accordance with the laws and jurisdiction set forth in Oyster AI’s Terms of Service.
+
+12.4 Amendments and Priority. Amendments to this signed DPA require written agreement signed by authorized representatives of both Parties, including valid electronic signatures. Website updates to standard Terms do not amend this DPA. Operational changes expressly permitted by this DPA, including subprocessor notices under Section 6.3, follow their specified procedure. Mandatory transfer clauses prevail for the transfers they govern, and this DPA prevails over conflicting general commercial terms on data-protection matters. It applies from the date agreed by the Parties or the last signature date if none is stated, and remains applicable while the Processor processes Personal Data on the Controller’s behalf.
+
+13. Notices
+
+All notices required under this DPA shall be in writing and sent via email or registered mail to: For Oyster AI (Solution Provider): Email: data@oysterskin.ai Address: Oyster Skin Research Inc, 4110 Brooks Bend, Austin TX, USA
+
+Appendix A: Personal Data Categories and Processing Purposes
+
+A.1 Personal Data Categories
+
+Includes but is not limited to skin analysis data, anonymized behavioral data, and other information voluntarily provided by users.
+
+A.2 Sensitive Data
+
+The Processor acknowledges that certain categories of Personal Data processed in connection with the Services may be classified as sensitive or special category data under Applicable Data Protection Laws.
+
+A.3 Processing Purposes
+
+Personalized beauty recommendations, customer interactions, analytics, and service improvements.
+
+A.4 Retention Period
+
+Personal Data other than the temporary data in Appendix A.5 is retained only as necessary for the agreed processing purposes during the Agreement, and returned or deleted under Section 10.2 within ninety (90) days after termination, subject to legally required retention. Appendix A.5 governs the shorter retention periods for selfie images and IP-address data. Fully anonymized data that cannot reasonably be re-identified is addressed separately in Appendix A.6; pseudonymized or otherwise identifiable data remains subject to this DPA.
+
+A.5 Information Temporarily Collected and Processed
+
+The following data is processed only for the purpose of providing the Solution and is not stored:
+
+● First 3 octets of the end users IP-address for country and city-level location purposes (deleted after user session closed).
+
+● Selfie image of end users for skin analysis purposes (deleted right after analysis completed).
+
+A.6 Information Collected and Stored in an Anonymized Format
+
+The following information is stored only in an anonymized format:
+
+● A unique identification number assigned to the e-commerce site visitor.
+
+● Approximate city-level location, as determined by GeoIP.
+
+● Product recommendations provided to the user.
+
+● Skincare and cosmetics preferences.
+
+● Environmental data (weather/forecast based on location).
+
+● Transformed selfie data, converted into numerical scores for skin type classification.
+
+● Aggregated, anonymized data, which may be used for analytics, benchmarking, and service improvements, ensuring that no individual user is identifiable. Furthermore, to advance broader societal benefits, we may utilize derived, fully anonymized, and aggregated datasets for the purpose of healthcare research. This altruistic initiative aims to identify trends, inform the development of novel solutions for dermatological and general health challenges, and ultimately train our models to deliver increasingly accurate and beneficial technology to our clients and the wider community.
+
+Appendix B: Security Measures
+
+B.1 Data Encryption
+
+AES-256 encryption is applied to stored data, and TLS 1.2+ is used for data in transit.
+
+B.2 Access Control
+
+Strict access policies are enforced, including multi-factor authentication (MFA) and role-based access controls (RBAC).
+
+Appendix C: Approved Subprocessors
+
+Approved subprocessors: AWS; Google Cloud; Google Analytics; MongoDB; Vaisala; Maxmind; Functional Software, Inc. The applicable entities, services, processing locations and transfer safeguards shall be recorded in the Controller-specific processing schedule before they process Personal Data for that Controller. Changes follow Section 6.3.
+
+Appendix D – Data Transfer Mechanisms
+
+D.1 Frameworks and SCCs.
+
+Before a restricted transfer begins, the Parties shall document a lawful transfer mechanism, the relevant roles, destinations and safeguards, and complete any required assessment. Where EU Standard Contractual Clauses are relied on, the applicable module of Commission Implementing Decision (EU) 2021/914, its completed annexes and any required UK or Swiss adaptations must be incorporated into the Parties’ signed transfer documentation. Appendix D describes the process; it does not itself constitute completed SCCs. An adequacy framework may be relied on only where its current legal requirements and the recipient’s eligibility are satisfied. If no valid mechanism is available, the affected transfer shall not proceed.
+
+D.2 Exception for Anonymized Data.
+
+Transfers of fully anonymized data (i.e., data that cannot be re-identified) are not subject to cross-border data transfer restrictions.
