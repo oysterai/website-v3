@@ -584,6 +584,7 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
           <div class="mcol"><h5>Learn</h5><a href="../reviews/">Reviews</a><a href="../skin-concerns/"><span class="mico"><img class="oyi" src="../assets/a_5356316d590b.webp" alt=""></span>Skin Concerns</a><a href="../blog"><span class="mico"><img class="oyi" src="../assets/a_505294bd8b41.webp" alt=""></span>The Oyster Index</a><a href="../product-journey"><span class="mico"><img class="oyi" src="../assets/a_4a85bf09c280.webp" alt=""></span>Product journey</a><a href="../research"><span class="mico"><img class="oyi" src="../assets/a_5356316d590b.webp" alt=""></span>Oyster Studies</a><a href="../research-projects"><span class="mico"><img class="oyi" src="../assets/a_d08d2bdc0414.webp" alt=""></span>Research projects</a></div>
           <div class="mcol"><h5>Build</h5><a href="../docs"><span class="mico"><img class="oyi" src="../assets/a_c4f8cea33f1a.webp" alt=""></span>Docs &amp; API</a><a href="https://widget.docs.oysterskin.com/v0.2.0/" target="_blank" rel="noopener"><span class="mico"><img class="oyi" src="../assets/a_de2980c2b600.webp" alt=""></span>Widget &amp; SDK</a><a href="../connect-to-ai-assistants"><span class="mico"><img class="oyi" src="../assets/a_1dddf3deb94e.webp" alt=""></span>Connect to AI</a></div>
           <div class="mcol"><h5>Integrations</h5><a href="../shopify-skin-analysis"><span class="mico"><img class="oyi" src="../assets/a_74e2b1461580.webp" alt=""></span>Shopify app</a><a href="../woocommerce-skin-analysis"><span class="mico"><img class="oyi" src="../assets/a_0e718781f05f.webp" alt=""></span>WooCommerce plugin</a><a href="../magento-skin-analysis"><span class="mico"><img class="oyi" src="../assets/a_c61a4a97c1dd.webp" alt=""></span>Magento</a></div>
+          <div class="mcol"><h5>Legal &amp; privacy</h5><a href="../privacy/">Website privacy policy</a><a href="../solutions-data-overview/">Data &amp; processing</a><a href="../dpa/">Data Processing Agreement</a><a href="../terms/">Terms of Service</a></div>
           <a class="mega-feat" href="../blog"><img src="../assets/a_44503c7ac13c.jpg" alt=""><div class="cap"><div class="k">The Index</div><h4>Skin intelligence trends, written down.</h4></div></a>
         </div></div>
       </div>
@@ -670,22 +671,22 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
 </style>
 <main class="pg"><section class="phero wrap rv">
 <div class="eyebrow">Docs & API</div>
-<h1>Ship skin intelligence in an afternoon.</h1>
-<p class="plede">One scan endpoint. A drop in widget. An MCP server your agents can call. Everything you need to put Oyster inside your storefront, your app, or your checkout.</p>
+<h1>Add skin analysis to your website or app.</h1>
+<p class="plede">Use the API, embed the widget or connect an AI assistant through MCP. Choose the integration that fits your storefront, app or checkout.</p>
 <div class="pcta"><a class="btn btn-cta" href="../contact">Get API keys <span class="ar">&#8599;</span></a><a class="btn btn-ghost" href="#docsref">Read the docs</a></div>
 </section>
 <section class="psec wrap">
 <div class="pgrid g3">
 <div class="oycard rv"><div class="oyk"><img class="oyi" src="../assets/a_c4f8cea33f1a.webp" alt=""></div><h3>REST API</h3><p>Send a photo, get back a structured skin profile and ranked product matches. Built for deeper skin tones first, measured across Fitzpatrick I to VI.</p></div>
-<div class="oycard rv"><div class="oyk"><img class="oyi" src="../assets/a_de2980c2b600.webp" alt=""></div><h3>Widget & SDK</h3><p>Drop the analysis flow onto any product page or kiosk with a few lines. Themeable to your brand, mobile first, no rebuild required.</p></div>
-<div class="oycard rv"><div class="oyk"><img class="oyi" src="../assets/a_1dddf3deb94e.webp" alt=""></div><h3>MCP & agent tools</h3><p>Expose Oyster to your AI agents. Pearl runs on WhatsApp, in store, and over voice, and calls the same tools your engineers do.</p></div>
+<div class="oycard rv"><div class="oyk"><img class="oyi" src="../assets/a_de2980c2b600.webp" alt=""></div><h3>Widget & SDK</h3><p>Embed the scan flow on a product page or kiosk. Match it to your brand and use it on mobile without rebuilding your site.</p></div>
+<div class="oycard rv"><div class="oyk"><img class="oyi" src="../assets/a_1dddf3deb94e.webp" alt=""></div><h3>MCP & agent tools</h3><p>Connect your AI agents to Oyster tools. Pearl uses those tools on WhatsApp, in store and over voice.</p></div>
 </div></section>
 <section class="psec wrap rv" id="docsref">
 <h2>A scan, in one request.</h2>
-<p class="lead">Clean, predictable JSON. No model wrangling on your side.</p>
+<p class="lead">Send an image and receive the skin profile and product matches as JSON.</p>
 <div class="code" style="margin-top:26px"><span class="oym"># request</span><br>POST /v1/analyze<br>{ <span class="c">"image"</span>: <span class="oys">"https://cdn.store/selfie.jpg"</span>, <span class="c">"market"</span>: <span class="oys">"ZA"</span> }<br><br><span class="oym"># response</span><br>{<br>&nbsp;&nbsp;<span class="c">"skin"</span>: { <span class="c">"hydration"</span>: <span class="oys">0.42</span>, <span class="c">"barrier"</span>: <span class="oys">"compromised"</span>, <span class="c">"concerns"</span>: [<span class="oys">"dark spots"</span>, <span class="oys">"texture"</span>] },<br>&nbsp;&nbsp;<span class="c">"matches"</span>: [ { <span class="c">"sku"</span>: <span class="oys">"TIAM-VITB3"</span>, <span class="c">"confidence"</span>: <span class="oys">0.94</span> } ]<br>}</div>
 </section>
-<section class="band rv"><h2>Build with the engine behind the counter.</h2><p>Keys, sandbox, and a real human to help you integrate. Most partners are live inside two hours.</p><div class="pcta"><a class="btn btn-gold" href="../contact">Talk to us <span class="ar">&#8599;</span></a></div></section>
+<section class="band rv"><h2>Get help with your integration.</h2><p>Get API keys, a test environment and help from our team. Most partners are live within two hours.</p><div class="pcta"><a class="btn btn-gold" href="../contact">Talk to us <span class="ar">&#8599;</span></a></div></section>
 </main>
 <!-- ============ MEGA FOOTER ============ -->
 <style>.res-sec{background:#F7EFE6;padding:64px 22px;border-top:1px solid rgba(60,40,25,.08)}.res-wrap{max-width:1080px;margin:0 auto}.res-ey{font:600 12px/1 "Plus Jakarta Sans",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#B8895A;margin-bottom:10px}.res-sec h2{font:700 clamp(24px,3vw,34px)/1.1 "Plus Jakarta Sans",sans-serif;letter-spacing:-.02em;color:#2B1B12;margin:0 0 26px}.res-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}.res-card{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;background:#fff;border:1px solid rgba(60,40,25,.1);border-radius:14px;padding:18px 20px;text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}.res-card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(60,40,25,.1)}.res-t{font:600 16px/1.32 "Plus Jakarta Sans",sans-serif;color:#2B1B12}.res-ar{color:#B8895A;font-size:15px}</style><section class="res-sec" aria-labelledby="res-h"><div class="res-wrap"><div class="res-ey">Resources</div><h2 id="res-h">Go deeper on skin intelligence</h2><div class="res-grid"><a class="res-card" href="../blog/skin-analysis-api-comparison"><span class="res-t">Skin Analysis API Comparison for Developers</span><span class="res-ar">&#8599;</span></a><a class="res-card" href="../blog/best-white-label-skin-analysis"><span class="res-t">The Best White Label Skin Analysis Technology</span><span class="res-ar">&#8599;</span></a><a class="res-card" href="../blog/what-is-ai-skin-analysis"><span class="res-t">What Is AI Skin Analysis?</span><span class="res-ar">&#8599;</span></a></div></div></section>
@@ -708,7 +709,7 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
   </div>
   <div class="mfoot-bottom">
     <span>© 2026 Oyster Skin Research Inc. USA</span>
-    <span><a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a> · <a href="../dpa/">DPA</a> · ISO 27001 certified</span>
+    <span><a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a> · <a href="../dpa/">DPA</a> · <a href="../solutions-data-overview/">Data policy</a> · ISO 27001 certified</span>
   </div>
   <div class="foot-belt" aria-hidden="true">
     <div class="belt"></div>

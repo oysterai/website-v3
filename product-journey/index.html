@@ -555,6 +555,9 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
 <script defer src="../assets/analytics.js"></script>
 <link rel="stylesheet" href="../assets/oyster-widget.css?v=20260917-2">
 <script defer src="../assets/oyster-widget.js?v=20260917-3"></script>
+<style id="jy-real-screens">
+.jy-shot{margin:18px 0 0;border:1px solid var(--line-soft);border-radius:12px;overflow:hidden;background:#fff}.jy-shot a{display:block}.jy-shot img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#fff}.jy-shot figcaption{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap;padding:11px 14px;font-size:12px;line-height:1.4;color:var(--muted);background:#F7EFE6;border-top:1px solid var(--line-soft)}.jy-shot figcaption span{color:var(--faint)}.jy-shot-lead{flex:0 0 100%;margin-top:12px;box-shadow:var(--sh-card)}.jy-shot-lead img{max-height:620px}.jy-shot a:focus-visible,.jy-tab:focus-visible{outline:3px solid var(--orange);outline-offset:3px}.jy-shot-lead a{padding:18px}.jy-card .jy-shot img{max-height:320px}@media(max-width:760px){.jy-shot-lead a{padding:8px}.jy-phead{padding-inline:22px}.jy-shot figcaption{font-size:11px}.jy-shot-lead img{max-height:480px}}
+</style>
 </head>
 <!-- ============ NAV ============ -->
 <nav class="nav" id="nav">
@@ -584,6 +587,7 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
           <div class="mcol"><h5>Learn</h5><a href="../reviews/">Reviews</a><a href="../skin-concerns/"><span class="mico"><img class="oyi" src="../assets/a_5356316d590b.webp" alt=""></span>Skin Concerns</a><a href="../blog"><span class="mico"><img class="oyi" src="../assets/a_505294bd8b41.webp" alt=""></span>The Oyster Index</a><a href="../product-journey"><span class="mico"><img class="oyi" src="../assets/a_4a85bf09c280.webp" alt=""></span>Product journey</a><a href="../research"><span class="mico"><img class="oyi" src="../assets/a_5356316d590b.webp" alt=""></span>Oyster Studies</a><a href="../research-projects"><span class="mico"><img class="oyi" src="../assets/a_d08d2bdc0414.webp" alt=""></span>Research projects</a></div>
           <div class="mcol"><h5>Build</h5><a href="../docs"><span class="mico"><img class="oyi" src="../assets/a_c4f8cea33f1a.webp" alt=""></span>Docs &amp; API</a><a href="https://widget.docs.oysterskin.com/v0.2.0/" target="_blank" rel="noopener"><span class="mico"><img class="oyi" src="../assets/a_de2980c2b600.webp" alt=""></span>Widget &amp; SDK</a><a href="../connect-to-ai-assistants"><span class="mico"><img class="oyi" src="../assets/a_1dddf3deb94e.webp" alt=""></span>Connect to AI</a></div>
           <div class="mcol"><h5>Integrations</h5><a href="../shopify-skin-analysis"><span class="mico"><img class="oyi" src="../assets/a_74e2b1461580.webp" alt=""></span>Shopify app</a><a href="../woocommerce-skin-analysis"><span class="mico"><img class="oyi" src="../assets/a_0e718781f05f.webp" alt=""></span>WooCommerce plugin</a><a href="../magento-skin-analysis"><span class="mico"><img class="oyi" src="../assets/a_c61a4a97c1dd.webp" alt=""></span>Magento</a></div>
+          <div class="mcol"><h5>Legal &amp; privacy</h5><a href="../privacy/">Website privacy policy</a><a href="../solutions-data-overview/">Data &amp; processing</a><a href="../dpa/">Data Processing Agreement</a><a href="../terms/">Terms of Service</a></div>
           <a class="mega-feat" href="../blog"><img src="../assets/a_44503c7ac13c.jpg" alt=""><div class="cap"><div class="k">The Index</div><h4>Skin intelligence trends, written down.</h4></div></a>
         </div></div>
       </div>
@@ -718,8 +722,8 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
   <section class="jy-hero">
     <div class="wrap">
       <div class="eyebrow jy-eye">The product journey</div>
-      <h1>It started with one scan. It grew into the infrastructure of beauty.</h1>
-      <p class="lede">One woman, one phone, ninety seconds. Something finally read her skin at her exact tone and depth and handed back a routine that fit. That single scan is where Oyster began. Fifteen months on, it runs across 29 countries as a platform, a dashboard, a storefront scan, an embed SDK, a consumer app and live consultations. Here is how it grew, release by release.</p>
+      <h1>From one skin analysis to a connected beauty business.</h1>
+      <p class="lede">Follow Oyster’s growth from skin analysis to the tools businesses and customers use today.</p>
       <div class="jy-stats">
         <div class="jy-stat"><b>6</b><span>products, one system</span></div>
         <div class="jy-stat"><b>60+</b><span>releases shipped</span></div>
@@ -733,7 +737,7 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
     <div class="jy-rail" id="jyRail" role="tablist" aria-label="Oyster products"></div>
   </div>
 
-  <section class="jy-body">
+  <section class="jy-body" id="jyPanel" role="tabpanel" aria-labelledby="jyTab0">
     <div class="jy-phead" id="jyHead"></div>
     <div class="jy-tree" id="jyTree" aria-live="polite"></div>
   </section>
@@ -741,12 +745,12 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
   <section class="jy-future">
     <div class="wrap">
       <div class="eyebrow">Where this goes</div>
-      <h2>Every face deserves to be read with the same care. That is the future Oyster is building.</h2>
-      <p>It begins with one honest reading and compounds from there. Every scan sharpens the next recommendation, every recommendation teaches the shelf, and the skin in front of the camera is finally seen at its true tone, in all 29 countries where Oyster is live. A qualified aesthetician stays in the loop the whole way, so the advice a person trusts is advice that holds up. Beauty spent a century guessing. This is the reading it gets to build on now.</p>
+      <h2>Better skincare advice, from the first analysis to the next visit.</h2>
+      <p>Connect skin analysis, product choices and professional support throughout the customer’s visit.</p>
       <div class="jy-fgrid">
-        <div class="jy-fcard rv"><b>47%</b><h5>The best conversion in beauty</h5><p>Shoppers who scan buy at a rate no quiz or shelf browse has ever touched. When the recommendation is right, people act on it.</p></div>
-        <div class="jy-fcard rv"><b>3000+</b><h5>Concerns in one photo</h5><p>A proprietary imaging method reads skin at a depth no selfie filter reaches, as true on the deepest tone as on the lightest.</p></div>
-        <div class="jy-fcard rv"><b>Human</b><h5>Always in the loop</h5><p>A qualified aesthetician stands behind the model, so the advice a person trusts is advice that holds up.</p></div>
+        <div class="jy-fcard rv"><b>Match</b><h5>Products for the customer</h5><p>Connect each analysis with products from your catalogue.</p></div>
+        <div class="jy-fcard rv"><b>Analyse</b><h5>Face and body</h5><p>Give your team a clear view of the customer’s skin concerns.</p></div>
+        <div class="jy-fcard rv"><b>Consult</b><h5>Professional support</h5><p>Bring the customer’s analysis into a conversation with an aesthetician.</p></div>
       </div>
       <div class="jy-cta">
         <a class="btn btn-gold" href="../book-demo">Book a demo <span class="ar">&#8599;</span></a>
@@ -776,7 +780,7 @@ img.oyck{width:15px;height:15px;object-fit:contain;display:inline-block;vertical
   </div>
   <div class="mfoot-bottom">
     <span>© 2026 Oyster Skin Research Inc. USA</span>
-    <span><a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a> · <a href="../dpa/">DPA</a> · ISO 27001 certified</span>
+    <span><a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a> · <a href="../dpa/">DPA</a> · <a href="../solutions-data-overview/">Data policy</a> · ISO 27001 certified</span>
   </div>
   <div class="foot-belt" aria-hidden="true">
     <div class="belt"></div>
@@ -828,99 +832,490 @@ _nm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',functio
 <script>
 (function(){
   var J=[
-    {id:'platform',name:'Oyster Platform',tag:'The brain',cur:'2026.09',since:'Jun 2025',
-     desc:'One engine reads skin from a single photo, detects 3000+ concerns and holds accurate on every tone, then turns that reading into routines, catalogue, customers, bookings, payments and reporting. Everything else Oyster makes plugs into it.',
-     who:'It exists for the founder who knew her formula worked and had no way to prove it. The proof now lives in the reading itself, as true on the deepest skin as on the lightest, live across 29 countries.',
-     nodes:[
-      {v:'Foundations',d:'Jun to Nov 2025',t:'The first skin analysis API',n:'The first version of the model that reads skin, wrapped in an API a business could actually call. Everything on this page traces back to these months.'},
-      {v:'2025.12',d:'Dec 2025',t:'Vendor AI, teams and the order stack',n:'A shop stopped being one login. Whole teams could work the same customers, and an order placed after a scan finally had somewhere to go.'},
-      {v:'2026.01',d:'Jan 2026',t:'Consultations, wallets and notifications',n:'A shopper could book time with a real person, hold a balance and hear back when something needed her. The loop between scan and human closed.'},
-      {v:'2026.02',d:'Feb 2026',t:'Treatment plans and streaming chat',n:'Advice started arriving as it was written, word by word, and a scan could become a plan a shopper carried home and followed.'},
-      {v:'2026.03',d:'Mar 2026',t:'Shared catalogue and customer records',n:'Every product, every person and every recommendation settled into one record, so a shop remembered a customer instead of meeting her fresh each visit.'},
-      {v:'2026.04',d:'Apr 2026',t:'Subscriptions and the voice assistant',n:'Routines could renew on their own, and Pearl found her voice, so a shopper could simply ask instead of tapping through a menu.'},
-      {v:'2026.05',d:'May 2026',t:'Pay for a scan in your own currency',n:'A scan in Lagos, Nairobi or London stopped being priced in a stranger’s money. Everyone paid in the currency in their own pocket.'},
-      {v:'2026.06',d:'Jun 2026',t:'Pay per scan and your own assistant',n:'Businesses paid only for the scans they used, saw what next month would cost, and could point their own assistant straight at Oyster.'},
-      {v:'2026.07',d:'Jul 2026',t:'Face and body become one scan',n:'Skin does not stop at the jaw. The analysis grew to read the whole person, and a real aesthetician could step into the chat the moment it mattered.'},
-      {v:'2026.08',d:'Aug 2026',t:'Charge for scans on your own gateway',n:'A vendor could fund a balance up front and draw scans from it, so a busy day never stalled at a payment screen.'},
-      {v:'2026.09',d:'Sep 2026',t:'Three routines per scan',n:'One reading, three ways to act on it. Essential for the tight budget, Complete for the committed, and a body scan that now stands on its own.',cur:1}
-     ]},
-    {id:'dashboard',name:'Vendor Dashboard',tag:'The console',cur:'2026.09',since:'Jul 2025',
-     desc:'Where a business runs Oyster. Catalogue, customers, bookings, billing and the skin intelligence sitting underneath all of it, in one console.',
-     who:'Picture the pharmacist who spent years reading a face across the counter and hoping the recommendation landed. This is the screen that turned that hope into a reading she can stand behind.',
-     nodes:[
-      {v:'2025.09–01',d:'Sep 2025 to Jan 2026',t:'First releases',n:'The first screen a business logged into every morning to see Oyster at work.'},
-      {v:'2026.02',d:'Feb 2026',t:'The consultation suite',n:'Bookings and consultations came together in one view, so nobody kept a client’s appointments in a separate notebook anymore.'},
-      {v:'2026.03',d:'Mar 2026',t:'Customers, catalogue and the clinic calendar',n:'Customers, products and the day’s calendar settled into the shape a team actually works in from open to close.'},
-      {v:'2026.04',d:'Apr 2026',t:'Onboarding and the intelligence dashboard',n:'A new shop could be live in an afternoon, then watch its own scan data explain what its customers were really asking for.'},
-      {v:'2026.05',d:'May 2026',t:'Billing, orders and attribution',n:'For the first time a shop could point at a sale and see the scan that led to it. The recommendation had a receipt.'},
-      {v:'2026.06',d:'Jun 2026',t:'Scan intelligence and a storefront page',n:'Owners could read the skin trends walking through their door, and hand shoppers a page of their own to visit.'},
-      {v:'2026.07',d:'Jul 2026',t:'Redesigned dashboard and apps gallery',n:'The whole console was rebuilt to breathe, with room for apps to plug in and a support desk a click away.'},
-      {v:'2026.08',d:'Aug 2026',t:'The dashboard on a phone',n:'The owner who is never at her desk could run the business from her phone between clients, and set her own scan prices while she was at it.'},
-      {v:'2026.09',d:'Sep 2026',t:'Scan Analysis splits into Face and Body',n:'Face and body earned their own views, so a therapist could read each one closely instead of squinting at both at once.',cur:1}
-     ]},
-    {id:'widget',name:'Skin Scan Widget',tag:'The scan',cur:'2026.09',since:'Aug 2025',
-     desc:'The scan itself, living on any storefront. Ninety seconds from a face to a routine matched to that exact skin, ready to add to cart.',
-     who:'For years she bought the product from the advert, the one that worked on someone else’s face, and watched it do nothing for hers. The widget is the ninety seconds where a shop finally sees her skin and answers it.',
-     nodes:[
-      {v:'2025.08–09',d:'Aug to Sep 2025',t:'First build',n:'The scan left the lab and went live on the open web, where any shopper could try it.'},
-      {v:'2026.02–03',d:'Feb to Mar 2026',t:'The widget becomes a storefront',n:'The moment of the reading became the moment of the purchase. She could browse and buy her matched products without ever leaving the scan.'},
-      {v:'2026.04',d:'Apr 2026',t:'Scan from your phone, book in place',n:'She could pass the scan to her phone for a better camera, then book time with a specialist right where she stood.'},
-      {v:'2026.05–06',d:'May to Jun 2026',t:'Payments, sharing and progress',n:'She could pay, send her results to a friend, and come back weeks later to see her skin actually changing.'},
-      {v:'2026.07',d:'Jul 2026',t:'Body scans and procedure recommendations',n:'The scan looked past the face to the whole person, and the chat beside it grew clearer about what to do next.'},
-      {v:'2026.08',d:'Aug 2026',t:'Consent, treatments and the shopping list',n:'Consent was made plain before anything was read, and the reading arrived as a basket she could check out in one go.'},
-      {v:'2026.09',d:'Sep 2026',t:'Pick a routine, pick a scan type',n:'She chose the depth of her routine and what to scan, from a light Essential to a full Complete, face or body, on her own terms.',cur:1}
-     ]},
-    {id:'sdk',name:'Widget Embed SDK',tag:'One script tag',cur:'v1.15.0',since:'Feb 2026',
-     desc:'One script tag drops the whole scan into any site, with the events, keys and controls a developer expects on day one.',
-     who:'The founder had the store, the traffic and no way to add real skin analysis without a six month build. One tag, one afternoon, and the scan was live in her checkout.',
-     nodes:[
-      {v:'v1.0.0',d:'Feb 2026',t:'v1',n:'The first release a developer could truly drop in, with the scan inline, surfaced on cue and tied to a user when it helped.'},
-      {v:'v1.1–1.2',d:'Feb 2026',t:'Custom logos, preloading, cart events',n:'It could wear a brand’s own logo, load before it was needed, and tell the store the instant a scan turned into a cart.'},
-      {v:'v1.3.0',d:'Mar 2026',t:'Public keys and short lived sessions',n:'Public keys and sessions that expire meant a developer could ship the code in plain page source and sleep at night.'},
-      {v:'v1.4.0',d:'Mar 2026',t:'Reliable float and inline embedding',n:'The widget learned to sit exactly where it was told on any layout, floating or inline, without fighting the page around it.'},
-      {v:'v1.5.0',d:'Apr 2026',t:'Budget tiers',n:'Recommendations learned to respect a wallet, matching low, mid or premium so nobody was sold a shelf they could not afford.'},
-      {v:'v1.6–1.8',d:'May 2026',t:'Widget types and host navigation',n:'A site could pick which surfaces to show and steer them from its own buttons, so the scan felt native to the store.'},
-      {v:'v1.9–1.10',d:'May 2026',t:'An always on launcher',n:'A quiet launcher rode along on every page, so the scan was always one tap away and never in the way.'},
-      {v:'v1.11.0',d:'Jun 2026',t:'Shopify embed channel',n:'Shopify merchants got a native channel, so adding the scan felt like flipping a switch they already knew.'},
-      {v:'v1.12.0',d:'Jul 2026',t:'Voice microphone mode',n:'A shopper could simply talk to the scan, out loud, on a launcher redrawn to invite it.'},
-      {v:'v1.13.1',d:'Jul 2026',t:'WooCommerce support',n:'WooCommerce stores got their own plugin, the same one running behind our WooCommerce page today.',badge:'Plugin'},
-      {v:'v1.14.0',d:'Aug 2026',t:'Collect scan payments on your own gateway',n:'A business could charge for scans through its own checkout, keeping the money and the relationship where they belonged.'},
-      {v:'v1.15.0',d:'Sep 2026',t:'A dismissed widget stays closed',n:'If a shopper closed the widget, it stayed closed for the rest of her visit. A small thing, and the kind of respect that keeps people coming back.',cur:1}
-     ]},
-    {id:'mobile',name:'Oyster Skin app',tag:'For shoppers',cur:'1.5.0',since:'Sep 2025',
-     desc:'The consumer app for iOS and Android. Scan, routine, shelf, progress, consultations and shopping, all carried in a pocket.',
-     who:'She used to keep a folder of screenshots, half remembered advice and products she was never sure about. Now the scan, the routine and the record of how her skin is changing live in one place she actually opens.',
-     nodes:[
-      {v:'1.0–1.3',d:'Sep 2025 to Apr 2026',t:'Earlier store releases',n:'The early releases that made the app a home. Onboarding, a routine to follow, shops to browse and a chat to ask.'},
-      {v:'1.4.0',d:'May to Jun 2026',t:'Pay per scan and track your progress',n:'She could pay for a scan in her own currency and, week by week, watch the proof of her skin changing in her own hand.'},
-      {v:'1.5.0',d:'Aug 2026',t:'Book a consult in the app',n:'Her routine came free of any paywall, the advice started reading the weather outside her window, and a consult was now a tap away.',cur:1}
-     ]},
-    {id:'meet',name:'Oyster Meet',tag:'For clinics',cur:'2026.08',since:'Dec 2025',
-     desc:'Video consultations between staff and clients, with the client’s scan and findings open right beside the call.',
-     who:'The clinician used to run the consult on one screen and squint at a scan on another, stitching the two together in her head. Meet puts the face, the findings and the conversation in a single room.',
-     nodes:[
-      {v:'2025.12–02',d:'Dec 2025 to Feb 2026',t:'First releases',n:'The first calls. A waiting room, a call screen, a recording, and the scan sitting right there in the panel.'},
-      {v:'2026.03–04',d:'Mar to Apr 2026',t:'Joining gets safer and clearer',n:'Joining a call got safer and simpler, with verification codes, one sign on for staff, and everyone visible in a grid.'},
-      {v:'2026.05',d:'May 2026',t:'Typography refresh and a recording reminder',n:'The type got easier on the eyes, and a clear line in the call bar meant nobody was ever recorded without knowing.'},
-      {v:'2026.08',d:'Aug 2026',t:'Readable findings in the scan panel',n:'The findings panel started speaking plainly, real concern names a client could understand, loading quicker so the conversation never stalled.',cur:1}
-     ]}
-  ];
+  {
+    "id": "platform",
+    "name": "Oyster Platform",
+    "tag": "The platform",
+    "cur": "2026.09",
+    "since": "Jun 2025",
+    "desc": "Skin analysis, product recommendations, customer records and payments in one system.",
+    "who": "The foundation for Oyster’s storefront, dashboard, app and consultation tools.",
+    "nodes": [
+      {
+        "v": "Foundations",
+        "d": "Jun to Nov 2025",
+        "t": "The first skin analysis API",
+        "n": "Businesses could connect skin analysis to their own products and services through the first API.",
+        "image": [
+          "a_8f49fe68293d.webp",
+          "Oyster analysis report with concern cards and a skin summary",
+          "Skin analysis report"
+        ]
+      },
+      {
+        "v": "2025.12",
+        "d": "Dec 2025",
+        "t": "Vendor AI, teams and the order stack",
+        "n": "Teams could manage shared customer records and orders from the same account."
+      },
+      {
+        "v": "2026.01",
+        "d": "Jan 2026",
+        "t": "Consultations, wallets and notifications",
+        "n": "Customers could book consultations, hold a wallet balance and receive notifications."
+      },
+      {
+        "v": "2026.02",
+        "d": "Feb 2026",
+        "t": "Treatment plans and streaming chat",
+        "n": "Customers could follow treatment plans and see chat responses as they arrived."
+      },
+      {
+        "v": "2026.03",
+        "d": "Mar 2026",
+        "t": "Shared catalogue and customer records",
+        "n": "Products, customers and recommendations came together in shared records.",
+        "image": [
+          "a_141d173fa008.webp",
+          "Oyster customer records displayed as profile cards",
+          "Customer records"
+        ]
+      },
+      {
+        "v": "2026.04",
+        "d": "Apr 2026",
+        "t": "Subscriptions and the voice assistant",
+        "n": "Oyster added recurring subscriptions and voice conversations with Pearl."
+      },
+      {
+        "v": "2026.05",
+        "d": "May 2026",
+        "t": "Pay for a scan in your own currency",
+        "n": "Customers could pay for an analysis in their local currency."
+      },
+      {
+        "v": "2026.06",
+        "d": "Jun 2026",
+        "t": "Pay per scan and your own assistant",
+        "n": "Businesses could pay per analysis, review usage costs and connect their own assistant.",
+        "image": [
+          "a_01d79b62eb98.webp",
+          "Oyster usage dashboard showing analysis costs and usage over time",
+          "Analysis usage and billing"
+        ]
+      },
+      {
+        "v": "2026.07",
+        "d": "Jul 2026",
+        "t": "Face and body become one scan",
+        "n": "Oyster added body analysis and support from an aesthetician in the conversation."
+      },
+      {
+        "v": "2026.08",
+        "d": "Aug 2026",
+        "t": "Charge for scans on your own gateway",
+        "n": "Businesses could fund an account balance and use it to pay for analyses."
+      },
+      {
+        "v": "2026.09",
+        "d": "Sep 2026",
+        "t": "Three routines per scan",
+        "n": "Customers gained more routine choices, including Essential and Complete, plus separate body analysis.",
+        "cur": 1,
+        "image": [
+          "a_4e4280c2cba9.webp",
+          "Oyster report showing image details and recommended products",
+          "Analysis details and product matches"
+        ]
+      }
+    ],
+    "image": [
+      "a_8f49fe68293d.webp",
+      "Oyster analysis report with concern cards and a skin summary",
+      "Skin analysis report"
+    ]
+  },
+  {
+    "id": "dashboard",
+    "name": "Vendor Dashboard",
+    "tag": "For your team",
+    "cur": "2026.09",
+    "since": "Jul 2025",
+    "desc": "Manage products, customers, bookings and billing from one dashboard.",
+    "who": "Keep the analysis beside the work your team does each day.",
+    "nodes": [
+      {
+        "v": "2025.09–01",
+        "d": "Sep 2025 to Jan 2026",
+        "t": "First releases",
+        "n": "The first dashboard gave businesses a place to manage Oyster."
+      },
+      {
+        "v": "2026.02",
+        "d": "Feb 2026",
+        "t": "The consultation suite",
+        "n": "Teams could manage bookings and consultations in one view.",
+        "image": [
+          "a_aa18fa7db03b.webp",
+          "Oyster appointments calendar with consultation bookings",
+          "Appointment management"
+        ]
+      },
+      {
+        "v": "2026.03",
+        "d": "Mar 2026",
+        "t": "Customers, catalogue and the clinic calendar",
+        "n": "Customer records, products and the clinic calendar came together."
+      },
+      {
+        "v": "2026.04",
+        "d": "Apr 2026",
+        "t": "Onboarding and the intelligence dashboard",
+        "n": "New onboarding steps helped businesses get started and explore their analysis data."
+      },
+      {
+        "v": "2026.05",
+        "d": "May 2026",
+        "t": "Billing, orders and attribution",
+        "n": "Teams could connect orders and revenue with the analysis that led to a purchase.",
+        "image": [
+          "a_097a20033e10.webp",
+          "Retail OS transactions showing payment status and amounts",
+          "Payments and transactions"
+        ]
+      },
+      {
+        "v": "2026.06",
+        "d": "Jun 2026",
+        "t": "Scan intelligence and a storefront page",
+        "n": "Businesses gained analysis reports and a storefront page for their customers."
+      },
+      {
+        "v": "2026.07",
+        "d": "Jul 2026",
+        "t": "Redesigned dashboard and apps gallery",
+        "n": "The dashboard gained a new layout, an apps gallery and a support desk."
+      },
+      {
+        "v": "2026.08",
+        "d": "Aug 2026",
+        "t": "The dashboard on a phone",
+        "n": "Owners could manage the dashboard from a phone and set their own analysis prices."
+      },
+      {
+        "v": "2026.09",
+        "d": "Sep 2026",
+        "t": "Scan Analysis splits into Face and Body",
+        "n": "Separate face and body views made each analysis easier to review.",
+        "cur": 1,
+        "image": [
+          "a_8f49fe68293d.webp",
+          "Oyster analysis report with concern cards and a skin summary",
+          "Skin analysis report"
+        ]
+      }
+    ],
+    "image": [
+      "a_dc284f08b65e.webp",
+      "Oyster dashboard with analysis activity, concerns and trends",
+      "Business dashboard"
+    ]
+  },
+  {
+    "id": "widget",
+    "name": "Skin Scan Widget",
+    "tag": "On your website",
+    "cur": "2026.09",
+    "since": "Aug 2025",
+    "desc": "Let customers analyse their skin and shop a matched routine on your website.",
+    "who": "The customer can move from their photos to results and product choices in one place.",
+    "nodes": [
+      {
+        "v": "2025.08–09",
+        "d": "Aug to Sep 2025",
+        "t": "First build",
+        "n": "The first web widget brought skin analysis to online shoppers.",
+        "image": [
+          "a_2246036d543b.webp",
+          "Six screens from photo capture through analysis to a matched routine",
+          "The customer’s scan journey"
+        ]
+      },
+      {
+        "v": "2026.02–03",
+        "d": "Feb to Mar 2026",
+        "t": "The widget becomes a storefront",
+        "n": "Customers could browse and buy matched products within the widget."
+      },
+      {
+        "v": "2026.04",
+        "d": "Apr 2026",
+        "t": "Scan from your phone, book in place",
+        "n": "Customers could move an analysis to their phone and book a specialist."
+      },
+      {
+        "v": "2026.05–06",
+        "d": "May to Jun 2026",
+        "t": "Payments, sharing and progress",
+        "n": "The widget added payments, result sharing and progress tracking.",
+        "image": [
+          "a_7a4461d44974.webp",
+          "Oyster progress view comparing analyses across visits",
+          "Progress across visits"
+        ]
+      },
+      {
+        "v": "2026.07",
+        "d": "Jul 2026",
+        "t": "Body scans and procedure recommendations",
+        "n": "Body analysis and procedure recommendations expanded the guidance customers could explore."
+      },
+      {
+        "v": "2026.08",
+        "d": "Aug 2026",
+        "t": "Consent, treatments and the shopping list",
+        "n": "Customers could review consent, explore treatments and check out a shopping list."
+      },
+      {
+        "v": "2026.09",
+        "d": "Sep 2026",
+        "t": "Pick a routine, pick a scan type",
+        "n": "Customers could choose face or body analysis and the routine that suited their needs.",
+        "cur": 1,
+        "image": [
+          "a_4e4280c2cba9.webp",
+          "Oyster report showing image details and recommended products",
+          "Analysis details and product matches"
+        ]
+      }
+    ],
+    "image": [
+      "a_2246036d543b.webp",
+      "Six screens from photo capture through analysis to a matched routine",
+      "The customer’s scan journey"
+    ]
+  },
+  {
+    "id": "sdk",
+    "name": "Widget Embed SDK",
+    "tag": "For your website team",
+    "cur": "v1.15.0",
+    "since": "Feb 2026",
+    "desc": "Add Oyster to your website with one script. Set your branding and control how it opens.",
+    "who": "Your developer can connect the widget to your store’s buttons, cart and checkout.",
+    "nodes": [
+      {
+        "v": "v1.0.0",
+        "d": "Feb 2026",
+        "t": "v1",
+        "n": "The first toolkit let developers embed the analysis in a page and open it from their own buttons."
+      },
+      {
+        "v": "v1.1–1.2",
+        "d": "Feb 2026",
+        "t": "Custom logos, preloading, cart events",
+        "n": "Developers gained custom logos, preloading and notifications when a customer added products to a cart.",
+        "image": [
+          "a_410aee4b428c.webp",
+          "Oyster Widget Manager with brand colours and embed settings",
+          "Widget setup"
+        ]
+      },
+      {
+        "v": "v1.3.0",
+        "d": "Mar 2026",
+        "t": "Public keys and short lived sessions",
+        "n": "Public keys and expiring sessions supported secure website integration."
+      },
+      {
+        "v": "v1.4.0",
+        "d": "Mar 2026",
+        "t": "Reliable float and inline embedding",
+        "n": "The widget supported both a floating window and a position inside the page."
+      },
+      {
+        "v": "v1.5.0",
+        "d": "Apr 2026",
+        "t": "Budget tiers",
+        "n": "Product recommendations could match low, mid-range or premium budgets."
+      },
+      {
+        "v": "v1.6–1.8",
+        "d": "May 2026",
+        "t": "Widget types and host navigation",
+        "n": "Developers could choose which widget views to show and control navigation from their website."
+      },
+      {
+        "v": "v1.9–1.10",
+        "d": "May 2026",
+        "t": "An always on launcher",
+        "n": "A persistent button gave customers a way to open Oyster across the website."
+      },
+      {
+        "v": "v1.11.0",
+        "d": "Jun 2026",
+        "t": "Shopify embed channel",
+        "n": "Shopify merchants gained a dedicated embed channel.",
+        "image": [
+          "a_fa0e20f7bb96.webp",
+          "Oyster apps and integrations page with store connections",
+          "Store integrations"
+        ]
+      },
+      {
+        "v": "v1.12.0",
+        "d": "Jul 2026",
+        "t": "Voice microphone mode",
+        "n": "Customers could use a microphone to talk to the assistant."
+      },
+      {
+        "v": "v1.13.1",
+        "d": "Jul 2026",
+        "t": "WooCommerce support",
+        "n": "A WooCommerce plugin added another way to connect Oyster to a store.",
+        "badge": "Plugin"
+      },
+      {
+        "v": "v1.14.0",
+        "d": "Aug 2026",
+        "t": "Collect scan payments on your own gateway",
+        "n": "Businesses could collect analysis payments through their own payment provider.",
+        "image": [
+          "a_097a20033e10.webp",
+          "Retail OS transactions showing payment status and amounts",
+          "Payments and transactions"
+        ]
+      },
+      {
+        "v": "v1.15.0",
+        "d": "Sep 2026",
+        "t": "A dismissed widget stays closed",
+        "n": "A dismissed widget stayed closed for the rest of the customer’s visit.",
+        "cur": 1
+      }
+    ],
+    "image": [
+      "a_410aee4b428c.webp",
+      "Oyster Widget Manager with brand colours and embed settings",
+      "Widget setup"
+    ]
+  },
+  {
+    "id": "mobile",
+    "name": "Oyster Skin app",
+    "tag": "For customers",
+    "cur": "1.5.0",
+    "since": "Sep 2025",
+    "desc": "Skin analysis, routines, progress and consultations in the Oyster app.",
+    "who": "Customers can keep their skincare routine and history together on their phone.",
+    "nodes": [
+      {
+        "v": "1.0–1.3",
+        "d": "Sep 2025 to Apr 2026",
+        "t": "Earlier store releases",
+        "n": "The first app releases introduced onboarding, routines, shopping and chat.",
+        "image": [
+          "a_1bf36f0e1fd3.jpg",
+          "Oyster mobile app showing a customer’s skincare routine",
+          "The Oyster app"
+        ]
+      },
+      {
+        "v": "1.4.0",
+        "d": "May to Jun 2026",
+        "t": "Pay per scan and track your progress",
+        "n": "Customers could pay per analysis in their currency and track changes over time.",
+        "image": [
+          "a_7a4461d44974.webp",
+          "Oyster progress view comparing analyses across visits",
+          "Progress across visits"
+        ]
+      },
+      {
+        "v": "1.5.0",
+        "d": "Aug 2026",
+        "t": "Book a consult in the app",
+        "n": "Customers could access their routine, receive weather-based guidance and book a consultation.",
+        "cur": 1
+      }
+    ],
+    "image": [
+      "a_1bf36f0e1fd3.jpg",
+      "Oyster mobile app showing a customer’s skincare routine",
+      "The Oyster app"
+    ]
+  },
+  {
+    "id": "meet",
+    "name": "Oyster Meet",
+    "tag": "For clinics",
+    "cur": "2026.08",
+    "since": "Dec 2025",
+    "desc": "Talk to customers by video with their analysis beside the call.",
+    "who": "Your team can discuss the findings without switching between separate screens.",
+    "nodes": [
+      {
+        "v": "2025.12–02",
+        "d": "Dec 2025 to Feb 2026",
+        "t": "First releases",
+        "n": "The first releases added a waiting room, calls, recordings and an analysis panel.",
+        "image": [
+          "a_aa18fa7db03b.webp",
+          "Oyster appointments calendar with consultation bookings",
+          "Appointment management"
+        ]
+      },
+      {
+        "v": "2026.03–04",
+        "d": "Mar to Apr 2026",
+        "t": "Joining gets safer and clearer",
+        "n": "Verification codes, staff sign-in and a participant grid improved joining a call."
+      },
+      {
+        "v": "2026.05",
+        "d": "May 2026",
+        "t": "Typography refresh and a recording reminder",
+        "n": "Clearer text and a recording reminder made the call controls easier to follow."
+      },
+      {
+        "v": "2026.08",
+        "d": "Aug 2026",
+        "t": "Readable findings in the scan panel",
+        "n": "The analysis panel gained clearer concern names and faster loading.",
+        "cur": 1,
+        "image": [
+          "a_4e4280c2cba9.webp",
+          "Oyster report showing image details and recommended products",
+          "Analysis details and product matches"
+        ]
+      }
+    ],
+    "image": [
+      "a_aa18fa7db03b.webp",
+      "Oyster appointments calendar with consultation bookings",
+      "Appointment management"
+    ]
+  }
+];
   var rail=document.getElementById('jyRail'),head=document.getElementById('jyHead'),tree=document.getElementById('jyTree');
   if(!rail) return;
   var esc=function(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');};
+  function picture(img,lead){return '<figure class="jy-shot'+(lead?' jy-shot-lead':'')+'"><a href="../assets/'+img[0]+'" target="_blank" rel="noopener" aria-label="Open '+esc(img[2])+' screenshot in a new tab"><img src="../assets/'+img[0]+'" alt="'+esc(img[1])+'" loading="'+(lead?'eager':'lazy')+'" decoding="async"></a><figcaption>'+esc(img[2])+' <span>Current product view</span></figcaption></figure>';}
   // build rail
   J.forEach(function(p,idx){
     var b=document.createElement('button');
     b.className='jy-tab';b.setAttribute('role','tab');b.setAttribute('aria-selected',idx===0?'true':'false');
-    b.dataset.i=idx;b.innerHTML='<span class="n"></span>'+esc(p.name);
-    b.addEventListener('click',function(){select(idx);b.scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'});});
+    b.id='jyTab'+idx;b.tabIndex=idx===0?0:-1;b.setAttribute('aria-controls','jyPanel');b.dataset.i=idx;b.innerHTML='<span class="n"></span>'+esc(p.name);
+    b.addEventListener('click',function(){select(idx);b.scrollIntoView({inline:'center',block:'nearest',behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});});
+    b.addEventListener('keydown',function(e){var next=idx;if(e.key==='ArrowRight')next=(idx+1)%J.length;else if(e.key==='ArrowLeft')next=(idx+J.length-1)%J.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=J.length-1;else return;e.preventDefault();select(next);rail.children[next].focus();});
     rail.appendChild(b);
   });
   function select(idx){
     var p=J[idx];
-    [].forEach.call(rail.children,function(b,i){b.setAttribute('aria-selected',i===idx?'true':'false');});
+    [].forEach.call(rail.children,function(b,i){b.setAttribute('aria-selected',i===idx?'true':'false');b.tabIndex=i===idx?0:-1;});
+    document.getElementById('jyPanel').setAttribute('aria-labelledby','jyTab'+idx);
     head.innerHTML='<div><div class="eyebrow jy-eye" style="margin-bottom:8px">'+esc(p.tag)+'</div><h2>'+esc(p.name)+'</h2><p>'+esc(p.desc)+'</p>'+(p.who?'<p class="who">'+esc(p.who)+'</p>':'')+'</div>'+
-      '<div class="jy-facts"><div class="f"><b>'+esc(p.cur)+'</b><span>Current</span></div><div class="f"><b>'+esc(p.since)+'</b><span>Since</span></div></div>';
+      '<div class="jy-facts"><div class="f"><b>'+esc(p.cur)+'</b><span>Current</span></div><div class="f"><b>'+esc(p.since)+'</b><span>Since</span></div></div>'+picture(p.image,true);
     // rebuild tree (retrigger grow + node animations)
     var spine='<div class="jy-spine"></div>';
     var nodes=p.nodes.map(function(nd,i){
@@ -928,7 +1323,7 @@ _nm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',functio
         '<span class="dot"></span>'+
         '<div class="jy-card">'+
           '<div class="jy-vrow"><span class="jy-v">'+esc(nd.v)+'</span><span class="jy-d">'+esc(nd.d)+'</span>'+(nd.badge?'<span class="jy-badge">'+esc(nd.badge)+'</span>':(nd.cur?'<span class="jy-badge">Now</span>':''))+'</div>'+
-          '<h4>'+esc(nd.t)+'</h4><p>'+esc(nd.n)+'</p>'+
+          '<h4>'+esc(nd.t)+'</h4><p>'+esc(nd.n)+'</p>'+(nd.image?picture(nd.image,false):'')+
         '</div></div>';
     }).join('');
     tree.innerHTML=spine+nodes;
